@@ -43,6 +43,7 @@ public class playmanager : MonoBehaviour
     public void mainmenu()
     {
         SceneManager.LoadScene("menuscene");
+        Time.timeScale = 1f;
     }
 
     public void pause()
