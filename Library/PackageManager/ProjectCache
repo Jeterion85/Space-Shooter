@@ -5,21 +5,72 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637612766954754026
-    m_Hash: 2255953758
+      ticks: 637614522020148632
+    m_Hash: 909387682
   m_LockFileStatus:
     m_FilePath: D:/Tools no.2/github/Space-Shooter/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637612766954754026
-    m_Hash: 3525716817
+      ticks: 637614522020698779
+    m_Hash: 3482874678
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
   m_Packages:
     m_ResolvedPackages:
+    - packageId: com.unity.2d.sprite@1.0.0
+      testable: 0
+      isDirectDependency: 1
+      version: 1.0.0
+      source: 2
+      resolvedPath: D:\Tools no.2\github\Space-Shooter\Library\PackageCache\com.unity.2d.sprite@1.0.0
+      assetPath: Packages/com.unity.2d.sprite
+      name: com.unity.2d.sprite
+      displayName: 2D Sprite
+      author:
+        name: 
+        email: 
+        url: 
+      category: 2D
+      type: 
+      description: Use Unity Sprite Editor Window to create and edit Sprite asset
+        properties like pivot, borders and Physics shape
+      status: 4
+      errors: []
+      versions:
+        all:
+        - 1.0.0
+        compatible:
+        - 1.0.0
+        verified: 1.0.0
+      dependencies: []
+      resolvedDependencies: []
+      keywords:
+      - 2d
+      - sprite
+      - sprite editor window
+      registry:
+        id: 
+        name: 
+        url: 
+        scopes: []
+        isDefault: 0
+        capabilities: 0
+      hasRegistry: 0
+      hideInEditor: 1
+      entitlements:
+        isAllowed: 1
+      isAssetStorePackage: 0
+      datePublishedTicks: 0
+      documentationUrl: 
+      hasRepository: 0
+      repository:
+        type: 
+        url: 
+        revision: 
+        path: 
     - packageId: com.unity.2d.tilemap@1.0.0
       testable: 0
       isDirectDependency: 1
@@ -315,6 +366,7 @@ m_PackageAssets:
         - 2.0.7
         - 2.0.8
         - 2.0.9
+        - 2.0.11
         compatible:
         - 1.0.2
         - 1.0.3
@@ -330,7 +382,8 @@ m_PackageAssets:
         - 2.0.7
         - 2.0.8
         - 2.0.9
-        verified: 2.0.9
+        - 2.0.11
+        verified: 2.0.11
       dependencies:
       - name: com.unity.test-framework
         version: 1.1.9
@@ -869,6 +922,7 @@ m_PackageAssets:
         - 1.5.2
         - 1.5.4
         - 1.5.5
+        - 1.5.6
         - 1.6.0-pre.1
         - 1.6.0-pre.3
         - 1.6.0-pre.4
@@ -888,6 +942,7 @@ m_PackageAssets:
         - 1.5.2
         - 1.5.4
         - 1.5.5
+        - 1.5.6
         - 1.6.0-pre.1
         - 1.6.0-pre.3
         - 1.6.0-pre.4
@@ -2818,7 +2873,7 @@ m_PackageAssets:
         email: 
         url: 
       category: 
-      type: library
+      type: 
       description: 'Newtonsoft Json for use in Unity projects and Unity packages.
         Currently synced to version 12.0.2.
 
@@ -2833,9 +2888,27 @@ m_PackageAssets:
       errors: []
       versions:
         all:
+        - 1.0.0-preview.2
+        - 1.0.0-preview.3
+        - 1.0.0-preview.4
+        - 1.0.1-preview.1
+        - 1.1.2
+        - 2.0.0-preview
+        - 2.0.0-preview.1
+        - 2.0.0-preview.2
         - 2.0.0
+        - 2.0.1-preview.1
         compatible:
+        - 1.0.0-preview.2
+        - 1.0.0-preview.3
+        - 1.0.0-preview.4
+        - 1.0.1-preview.1
+        - 1.1.2
+        - 2.0.0-preview
+        - 2.0.0-preview.1
+        - 2.0.0-preview.2
         - 2.0.0
+        - 2.0.1-preview.1
         verified: 2.0.0
       dependencies: []
       resolvedDependencies: []
@@ -2852,7 +2925,7 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 0
+      datePublishedTicks: 637237898320000000
       documentationUrl: 
       hasRepository: 1
       repository:
