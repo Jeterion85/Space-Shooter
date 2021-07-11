@@ -14,8 +14,7 @@ public class playmanager : MonoBehaviour
     public GameObject losepanel;
     public GameObject pausepanel;
     public Text scoretext;    
-
-    public PlayerInput playerInput;
+   
     // Start is called before the first frame update
     void Start()
     {        
@@ -32,7 +31,7 @@ public class playmanager : MonoBehaviour
         scoretext.text = "Your score is:" + score;
         losepanel.SetActive(true);
         savemanagernew.add(score);
-       // playerInput.SwitchCurrentActionMap("UI");
+     
     }
 
     public void playagain()

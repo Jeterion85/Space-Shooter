@@ -32,31 +32,11 @@ public class shipmovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        rb.velocity = new Vector2(0, 0);
-         
-       // controlls.Player.Move.performed += ctx => Move(ctx.ReadValue<Vector2>());
-       // controlls.Player.Fire.performed += ctx2 => shooting();
-
-
-
+        rb.velocity = new Vector2(0, 0);       
+       
         rb.velocity = new Vector2(movex * speed, rb.velocity.y);
         rb.velocity = new Vector2(rb.velocity.x, movey * speed);
-        //Vector3 movement = new Vector3(moveHorizontal, moveVertical, 0.0f);
-        //rb.AddForce(movement/2 * speed);
-        if (cooldown > 0)
-        {
-            cooldown -= 1.5f * Time.deltaTime;
-        }
-        //shoot
-        if (firing && cooldown <= 0)
-        {
-            //var shot = Instantiate(shoot, new Vector3(transform.position.x, transform.position.y, transform.position.z), Quaternion.identity);
-            GameObject shot = sm.Shotupgrade( shoot, transform.position.x, transform.position.y, transform.position.z,shotlevel,0);
-            shot.transform.parent = gameObject.transform;
-            cooldown = 2f;
-            firing = false;
-        }
-        firing = false;
+        
     }
 
     public void Move(InputAction.CallbackContext context)
