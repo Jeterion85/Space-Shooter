@@ -20,4 +20,5 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/cutscene-demo.unity
     guid: d40c9ff0a8837624fbd48833ffe141d9
-  m_configObjects: {}
+  m_configObjects:
+    com.unity.input.settings: {fileID: 11400000, guid: d6d9ace1d63709042846ff4499235a8a, type: 2}

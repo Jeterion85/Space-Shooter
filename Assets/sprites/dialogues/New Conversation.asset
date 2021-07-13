@@ -19,3 +19,4 @@ MonoBehaviour:
     dialogue: Is this working
   - speaker: {fileID: 11400000, guid: 1ff0bd45bc6dc244ea959488b316d639, type: 2}
     dialogue: I feel it's working
+  scenename: station
