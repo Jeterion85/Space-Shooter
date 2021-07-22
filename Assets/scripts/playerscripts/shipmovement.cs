@@ -43,8 +43,7 @@ public class shipmovement : MonoBehaviour
     {
         Vector2 direction = context.ReadValue<Vector2>();
         movex = direction.x;
-        movey = direction.y;
-        Debug.Log(direction);
+        movey = direction.y;       
     }
 
     public void shooting(InputAction.CallbackContext context)

@@ -26,11 +26,12 @@ public class levelend : MonoBehaviour
 
     IEnumerator end()
     {
-        PlayerPrefs.SetInt("cutscenetoload", cutscene);
-        am.SetTrigger("start");
+        PlayerPrefs.SetInt("cutscenetoload", cutscene);        
         ps.Play();
 
-        yield return new WaitForSeconds(5);
+        yield return new WaitForSeconds(4);
+        am.SetTrigger("start");
+        yield return new WaitForSeconds(1);
 
         SceneManager.LoadScene("Cutscene-demo");
     }

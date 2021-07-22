@@ -36,8 +36,7 @@ public class turretrotation : MonoBehaviour
         if (firing && cooldown <= 0)
         {           
             float z = gameObject.transform.localEulerAngles.z;
-            GameObject shot = sm.Shotupgrade(shoot, transform.position.x, transform.position.y, transform.position.z, shotlevel, z);
-            //shot.transform.parent = gameObject.transform;
+            GameObject shot = sm.Shotupgrade(shoot, transform.position.x, transform.position.y, transform.position.z, shotlevel, z);            
             cooldown = 2f;
             firing = false;
         }
@@ -50,7 +49,7 @@ public class turretrotation : MonoBehaviour
         movex = direction;        
     }
 
-    public void shooting(InputAction.CallbackContext context)
+    public void Fire(InputAction.CallbackContext context)
     {
         firing = true;
     }

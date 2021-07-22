@@ -6,7 +6,7 @@ using UnityEngine;
 public class Conversation : ScriptableObject
 {
     [SerializeField] public Dialogue[] dialoguelines;
-    [SerializeField] public string scenename;
+    [SerializeField] public string scenename;    
 
     public Dialogue GetLineByIndex(int index)
     {
@@ -20,5 +20,6 @@ public class Conversation : ScriptableObject
     {
         return scenename;
     }
+    
 
 }

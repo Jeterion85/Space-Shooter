@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Scenes/survive.unity
+- path: Assets/Scenes/mission base.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

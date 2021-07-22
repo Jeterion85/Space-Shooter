@@ -12,9 +12,11 @@ public class DialogueManager : MonoBehaviour
     public TMP_Text dText, speakertext;   
     public Image speakerimage;
 
-    public bool dActive;
-    public string[] dialogueLines;
-    public int currentLine;    
+    public Animator am;
+
+    [HideInInspector] public bool dActive;
+    [HideInInspector] public string[] dialogueLines;
+    [HideInInspector] public int currentLine;    
 
     public Conversation convo;
     // Start is called before the first frame update
@@ -42,12 +44,9 @@ public class DialogueManager : MonoBehaviour
                 speakertext.text = convo.GetLineByIndex(currentLine).speaker.GetName(); //set speker name
                 dText.text = convo.GetLineByIndex(currentLine).dialogue; //set dialogue
                 speakerimage.sprite = convo.GetLineByIndex(currentLine).speaker.GetImage(); //set speaker image  
-            }          
-                                
-        }        
-        
+            }                  
+        }
     }
-
    
 
     public void showDialogue()
@@ -61,7 +60,7 @@ public class DialogueManager : MonoBehaviour
 
     IEnumerator end()
     {        
-        //am.SetTrigger("start");
+        am.SetTrigger("start");
         //ps.Play();
 
         yield return new WaitForSeconds(1);
