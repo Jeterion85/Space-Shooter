@@ -11,11 +11,14 @@ public class DialogueHolder : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        dMan = FindObjectOfType<DialogueManager>();       
+        dMan = FindObjectOfType<DialogueManager>();
+        dMan.convo = convoholder;
+        dMan.currentLine = 0;
+        dMan.showDialogue();
     }
 
     // Update is called once per frame
-    void Update()
+    void pdate()
     {
        if (!dMan.dActive)
        {              

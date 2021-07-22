@@ -8,6 +8,12 @@ public class cutscene_manager : MonoBehaviour
 
     public GameObject[] cutscenes;
     // Start is called before the first frame update
+
+    void Awake()
+    {
+        a = PlayerPrefs.GetInt("cutscenetoload");
+    }
+
     void Start()
     {
         for (int i=0; i<cutscenes.Length; i++)

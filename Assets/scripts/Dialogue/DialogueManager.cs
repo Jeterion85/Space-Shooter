@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class DialogueManager : MonoBehaviour
@@ -11,9 +12,11 @@ public class DialogueManager : MonoBehaviour
     public TMP_Text dText, speakertext;   
     public Image speakerimage;
 
-    public bool dActive;
-    public string[] dialogueLines;
-    public int currentLine;    
+    public Animator am;
+
+    [HideInInspector] public bool dActive;
+    [HideInInspector] public string[] dialogueLines;
+    [HideInInspector] public int currentLine;    
 
     public Conversation convo;
     // Start is called before the first frame update
@@ -33,16 +36,17 @@ public class DialogueManager : MonoBehaviour
                 dBox.SetActive(false);
                 dActive = false;
                 currentLine = 0;
-                Debug.Log("ok");                           
+                Debug.Log("ok");
+                StartCoroutine(end());
             }
-           
-            speakertext.text = convo.GetLineByIndex(currentLine).speaker.GetName(); //set speker name
-            dText.text = convo.GetLineByIndex(currentLine).dialogue; //set dialogue
-            speakerimage.sprite = convo.GetLineByIndex(currentLine).speaker.GetImage(); //set speaker image                      
-        }        
-        
+            else
+            {
+                speakertext.text = convo.GetLineByIndex(currentLine).speaker.GetName(); //set speker name
+                dText.text = convo.GetLineByIndex(currentLine).dialogue; //set dialogue
+                speakerimage.sprite = convo.GetLineByIndex(currentLine).speaker.GetImage(); //set speaker image  
+            }                  
+        }
     }
-
    
 
     public void showDialogue()
@@ -52,5 +56,15 @@ public class DialogueManager : MonoBehaviour
         speakertext.text = convo.GetLineByIndex(currentLine).speaker.GetName(); //set speker name
         dText.text = convo.GetLineByIndex(currentLine).dialogue; //set dialogue
         speakerimage.sprite = convo.GetLineByIndex(currentLine).speaker.GetImage(); //set speaker image
+    }
+
+    IEnumerator end()
+    {        
+        am.SetTrigger("start");
+        //ps.Play();
+
+        yield return new WaitForSeconds(1);
+
+        SceneManager.LoadScene(convo.Getname());
     }
 }
