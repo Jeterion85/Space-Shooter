@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/release' branch; Version is '2020.3.12f1 (b3b2c6512326) revision 11776710'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 18363.1440; Version 1909; 64bit' Language: 'el' Physical Memory: 16316 MB
+OS: 'Windows 10 Home; OS build 19042.1110; Version 2009; 64bit' Language: 'el' Physical Memory: 16316 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -15,11 +15,11 @@ D:/Tools no.2/github/Space-Shooter
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-55160
+49456
 Successfully changed project path to: D:/Tools no.2/github/Space-Shooter
 D:/Tools no.2/github/Space-Shooter
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 57.02 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 56.41 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.12f1 (b3b2c6512326)
 [Subsystems] Discovering subsystems at path D:/Tools no.2/Unity/Unity builds/2020.3.12f1/Editor/Data/Resources/UnitySubsystems
@@ -30,42 +30,42 @@ Direct3D:
     Renderer: NVIDIA GeForce GTX 960 (ID=0x1401)
     Vendor:   
     VRAM:     2007 MB
-    Driver:   26.21.14.4120
+    Driver:   27.21.14.5671
 Initialize mono
 Mono path[0] = 'D:/Tools no.2/Unity/Unity builds/2020.3.12f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Tools no.2/Unity/Unity builds/2020.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Tools no.2/Unity/Unity builds/2020.3.12f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56676
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56452
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Tools no.2/Unity/Unity builds/2020.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001103 seconds.
+Registered in 0.001249 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 58.22 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 59.33 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.752 seconds
+- Completed reload, in  1.793 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003366 seconds.
+Registered in 0.003532 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 57.09 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 63.47 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.136 seconds
+- Completed reload, in  1.179 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1801 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 175.1 MB.
 System memory in use after: 175.2 MB.
 
 Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2266.
-Total: 2.549700 ms (FindLiveObjects: 0.218700 ms CreateObjectMapping: 0.052200 ms MarkObjects: 2.115500 ms  DeleteObjects: 0.162300 ms)
+Total: 2.502000 ms (FindLiveObjects: 0.208200 ms CreateObjectMapping: 0.051100 ms MarkObjects: 2.087100 ms  DeleteObjects: 0.154400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -79,46 +79,1254 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/mission base.unity
-  artifactKey: Guid(0e32e2957e227f84094966ad657c66ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/mission base.unity using Guid(0e32e2957e227f84094966ad657c66ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68606193a94cfe82254a41e48a0a8c8e') in 0.029597 seconds 
-  Import took 0.032787 seconds .
+  path: Assets/sprites/tiles/space tiles 2 yellow.png
+  artifactKey: Guid(3811114e96f14264bb23f8a2f8b1ef1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 yellow.png using Guid(3811114e96f14264bb23f8a2f8b1ef1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc543a1093fdf76c3fadbc4c18ccd52f') in 0.079939 seconds 
+  Import took 0.083140 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 17.051872 seconds.
-  path: Assets/Scenes/basic scene.scenetemplate
-  artifactKey: Guid(d75dc4a6ac205a64cbd4a17b43cd962f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/basic scene.scenetemplate using Guid(d75dc4a6ac205a64cbd4a17b43cd962f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7a367b62833fd5b720c607decaf1b10') in 0.223825 seconds 
-  Import took 0.227755 seconds .
+  Time since last request: 0.000190 seconds.
+  path: Assets/sprites/tiles/space tiles 2 blue.png
+  artifactKey: Guid(9066d509e2d2dd543a870dcd285b7b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 blue.png using Guid(9066d509e2d2dd543a870dcd285b7b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9937dda53950f27925eacd9c54c145f') in 0.022143 seconds 
+  Import took 0.025038 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 23.315969 seconds.
-  path: Assets/Scenes/survive.unity
-  artifactKey: Guid(9bcbabaeee71afd4eb65ad49eb9dd20f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/survive.unity using Guid(9bcbabaeee71afd4eb65ad49eb9dd20f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b68758400e2392647732405db54bbf2') in 0.006770 seconds 
-  Import took 0.009989 seconds .
+  Time since last request: 0.000195 seconds.
+  path: Assets/sprites/tiles/space tiles 2 green.png
+  artifactKey: Guid(dd80358e14d78ba4b82e7aa87096953c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 green.png using Guid(dd80358e14d78ba4b82e7aa87096953c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0541dfc77bc599a8503cd36f811db2f') in 0.023526 seconds 
+  Import took 0.026647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/sprites/tiles/space tiles 2 purple.png
+  artifactKey: Guid(8fa4734829562084ab40250473104afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 purple.png using Guid(8fa4734829562084ab40250473104afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0368818d0d74d147b88dddfed4dc3bba') in 0.010417 seconds 
+  Import took 0.013374 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.966866 seconds.
+  path: Assets/sprites/tiles/space tiles 2 blue.png
+  artifactKey: Guid(9066d509e2d2dd543a870dcd285b7b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 blue.png using Guid(9066d509e2d2dd543a870dcd285b7b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36dd92ef23f79ffb8e7fe85303fc1dcf') in 0.056273 seconds 
+  Import took 0.059476 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/sprites/tiles/space tiles 2 yellow.png
+  artifactKey: Guid(3811114e96f14264bb23f8a2f8b1ef1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 yellow.png using Guid(3811114e96f14264bb23f8a2f8b1ef1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e6c69b6aad03ed485a1586dad33494e') in 0.013099 seconds 
+  Import took 0.016021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/sprites/tiles/space tiles 2 green.png
+  artifactKey: Guid(dd80358e14d78ba4b82e7aa87096953c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 green.png using Guid(dd80358e14d78ba4b82e7aa87096953c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d3577c990d4e5af3e66ea36503987a2') in 0.013328 seconds 
+  Import took 0.016658 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/sprites/tiles/space tiles 2 yellow.png
+  artifactKey: Guid(3811114e96f14264bb23f8a2f8b1ef1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 yellow.png using Guid(3811114e96f14264bb23f8a2f8b1ef1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e6c69b6aad03ed485a1586dad33494e') in 0.012510 seconds 
+  Import took 0.015914 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/sprites/tiles/space tiles 2 purple.png
+  artifactKey: Guid(8fa4734829562084ab40250473104afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 purple.png using Guid(8fa4734829562084ab40250473104afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47fd08926e64fbaf6bea9ae29f96e6b3') in 0.012069 seconds 
+  Import took 0.015292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.444007 seconds.
+  path: Assets/sprites/tiles/space tiles 2 blue.png
+  artifactKey: Guid(9066d509e2d2dd543a870dcd285b7b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 blue.png using Guid(9066d509e2d2dd543a870dcd285b7b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cc15f770e23d8f1097acf064b836fd2') in 0.011238 seconds 
+  Import took 0.014524 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.603908 seconds.
+  path: Assets/sprites/tiles/space tiles 2 green.png
+  artifactKey: Guid(dd80358e14d78ba4b82e7aa87096953c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 green.png using Guid(dd80358e14d78ba4b82e7aa87096953c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cc10910a0b9f6af6d55b45fbc01053c') in 0.010849 seconds 
+  Import took 0.014171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/sprites/tiles/space tiles 2 yellow.png
+  artifactKey: Guid(3811114e96f14264bb23f8a2f8b1ef1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 yellow.png using Guid(3811114e96f14264bb23f8a2f8b1ef1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c25753dca1b99e88eee1df63dee8e952') in 0.009332 seconds 
+  Import took 0.012373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/sprites/tiles/space tiles 2 purple.png
+  artifactKey: Guid(8fa4734829562084ab40250473104afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 purple.png using Guid(8fa4734829562084ab40250473104afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d5f940459dc3a67678c1d496f8fba55') in 0.009572 seconds 
+  Import took 0.013161 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 41.427500 seconds.
+  path: Assets/sprites/tiles/space tiles 2 blue.png
+  artifactKey: Guid(9066d509e2d2dd543a870dcd285b7b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 blue.png using Guid(9066d509e2d2dd543a870dcd285b7b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c353d7b745507929632039e4bf4cd6ab') in 0.062326 seconds 
+  Import took 0.066073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.128060 seconds.
+  path: Assets/sprites/tiles/space tiles 2 green.png
+  artifactKey: Guid(dd80358e14d78ba4b82e7aa87096953c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 green.png using Guid(dd80358e14d78ba4b82e7aa87096953c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0b615ff2b0b470092db63f44f44cc23') in 0.083424 seconds 
+  Import took 0.087143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.091517 seconds.
+  path: Assets/sprites/tiles/space tiles 2 purple.png
+  artifactKey: Guid(8fa4734829562084ab40250473104afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 purple.png using Guid(8fa4734829562084ab40250473104afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b63b40f3dc1527ec35b360e00eb0d28c') in 0.065159 seconds 
+  Import took 0.078193 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.973894 seconds.
+  path: Assets/sprites/tiles/space tiles 2 yellow.png
+  artifactKey: Guid(3811114e96f14264bb23f8a2f8b1ef1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 yellow.png using Guid(3811114e96f14264bb23f8a2f8b1ef1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b09b0be64437a57ac57dd5c7d7946c7f') in 0.052771 seconds 
+  Import took 0.066419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 15.915022 seconds.
+  path: Assets/sprites/tiles/nebula.prefab
+  artifactKey: Guid(79de0e4e998b697409d9975c7fd2420a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/nebula.prefab using Guid(79de0e4e998b697409d9975c7fd2420a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '805cbd7f2748ea2c5ac252209fe95c1e') in 0.015103 seconds 
+  Import took 0.018461 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.478077 seconds.
+  path: Assets/sprites/tiles/nebula.prefab
+  artifactKey: Guid(79de0e4e998b697409d9975c7fd2420a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/nebula.prefab using Guid(79de0e4e998b697409d9975c7fd2420a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cf592e6de44ed67e7f04ed6f5f8f72c') in 0.003809 seconds 
+  Import took 0.007108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/sprites/tiles/space tiles 2 blue_23.asset
+  artifactKey: Guid(d859490bb8513924ea50dbe0c55ff674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 blue_23.asset using Guid(d859490bb8513924ea50dbe0c55ff674) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7044d705a6531a8f3fc02ac734848ca') in 0.017489 seconds 
+  Import took 0.020838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/sprites/tiles/space tiles 2 green_21.asset
+  artifactKey: Guid(1abf3562eba99234c9e0a7a069f1eded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 green_21.asset using Guid(1abf3562eba99234c9e0a7a069f1eded) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cee18174bc83ddc660a8e546514c4f14') in 0.008755 seconds 
+  Import took 0.011658 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000303 seconds.
+  path: Assets/sprites/tiles/space tiles 2 green_10.asset
+  artifactKey: Guid(1a0b8d54095d40241b1fa0819d66cd1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 green_10.asset using Guid(1a0b8d54095d40241b1fa0819d66cd1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc8e2eca6ae1bd620791fc537b17d217') in 0.008388 seconds 
+  Import took 0.011650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/sprites/tiles/space tiles 2 green_11.asset
+  artifactKey: Guid(3e4a2e621b5b1154bb9e4806c9f0aa16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 green_11.asset using Guid(3e4a2e621b5b1154bb9e4806c9f0aa16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7460d50636e8a574f443f6030f23388') in 0.009386 seconds 
+  Import took 0.012708 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/sprites/tiles/space tiles 2 blue_22.asset
+  artifactKey: Guid(4cb9bf816af7b3540b746d2583c27a35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 blue_22.asset using Guid(4cb9bf816af7b3540b746d2583c27a35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b1d165914a2d2c072a1f87588e7f026') in 0.009228 seconds 
+  Import took 0.024173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/sprites/tiles/space tiles 2 green_19.asset
+  artifactKey: Guid(b4b6224f2b5e8b948984af0722dcf441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 green_19.asset using Guid(b4b6224f2b5e8b948984af0722dcf441) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9abaa2b75b51c20b42bc2befac1514e') in 0.010405 seconds 
+  Import took 0.013755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000408 seconds.
+  path: Assets/sprites/tiles/space tiles 2 purple_2.asset
+  artifactKey: Guid(e42ec8665c32c624ca6c52ad354ce142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 purple_2.asset using Guid(e42ec8665c32c624ca6c52ad354ce142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b50fba1eb85b40bb5c55a6cc4e276735') in 0.009288 seconds 
+  Import took 0.012641 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/sprites/tiles/space tiles 2 blue_8.asset
+  artifactKey: Guid(d498cd2f44bf5f1449ed196cc97da1b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 blue_8.asset using Guid(d498cd2f44bf5f1449ed196cc97da1b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f52469c09a05cd2ad596bfe805ea494b') in 0.009773 seconds 
+  Import took 0.012825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/sprites/tiles/space tiles 2 blue_0.asset
+  artifactKey: Guid(08c28e7f779a7ae45bf68322d1713df2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 blue_0.asset using Guid(08c28e7f779a7ae45bf68322d1713df2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47b5c7c7ba324668dbeb6515253ada62') in 0.010164 seconds 
+  Import took 0.013185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/sprites/tiles/space tiles 2 blue_11.asset
+  artifactKey: Guid(f993c1e1195f76d48986d47c24e1682a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 blue_11.asset using Guid(f993c1e1195f76d48986d47c24e1682a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e92f05cf7e5b7d6f8864f7a7a7b40156') in 0.009946 seconds 
+  Import took 0.013651 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000201 seconds.
+  path: Assets/sprites/tiles/space tiles 2 blue_4.asset
+  artifactKey: Guid(4de04672a2e5a6e4988fdedb0332d2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 blue_4.asset using Guid(4de04672a2e5a6e4988fdedb0332d2c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5672550bb710eb575e68da4faf14f172') in 0.009028 seconds 
+  Import took 0.011964 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/sprites/tiles/space tiles 2 blue_15.asset
+  artifactKey: Guid(fb3ff405fb3eece4aa20532752eda278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 blue_15.asset using Guid(fb3ff405fb3eece4aa20532752eda278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9844fa53c0d71229805f0658eb3721e5') in 0.010570 seconds 
+  Import took 0.013526 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/sprites/tiles/space tiles 2 green_23.asset
+  artifactKey: Guid(27ad8ae377a2b91498dbc7c43fcea84b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 green_23.asset using Guid(27ad8ae377a2b91498dbc7c43fcea84b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '955f87be14f399112d8298d146ad7bfa') in 0.024620 seconds 
+  Import took 0.027959 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000277 seconds.
+  path: Assets/sprites/tiles/space tiles 2 blue_28.asset
+  artifactKey: Guid(bd2a19de96280494a8d7f7d8a69b168e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 blue_28.asset using Guid(bd2a19de96280494a8d7f7d8a69b168e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f716ae5ca0304bd0c208b3732e6f395c') in 0.009244 seconds 
+  Import took 0.012583 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/sprites/tiles/space tiles 2 green_27.asset
+  artifactKey: Guid(9924ce54109eeca4683084eb97a8ba21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 green_27.asset using Guid(9924ce54109eeca4683084eb97a8ba21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73c6e54b22f2fc7f288551f614446579') in 0.009958 seconds 
+  Import took 0.013264 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/sprites/tiles/space tiles 2 blue_3.asset
+  artifactKey: Guid(6774dee881fb3cf49bb7de320add8f64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 blue_3.asset using Guid(6774dee881fb3cf49bb7de320add8f64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b9526cb0501b2aa25121b5cfb4f35e1') in 0.008835 seconds 
+  Import took 0.012344 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000295 seconds.
+  path: Assets/sprites/tiles/space tiles 2 green_30.asset
+  artifactKey: Guid(4b6a7a13493b02241a694e8fee63d70c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 green_30.asset using Guid(4b6a7a13493b02241a694e8fee63d70c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9de5f294f40c161284e2b766328b659b') in 0.009941 seconds 
+  Import took 0.013349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/sprites/tiles/space tiles 2 blue_12.asset
+  artifactKey: Guid(5ebf5e6bc40d2e5408dbe49076d9fa9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 blue_12.asset using Guid(5ebf5e6bc40d2e5408dbe49076d9fa9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bbad3b9aaf22963b1d766d83c575cac') in 0.014609 seconds 
+  Import took 0.017924 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/sprites/tiles/space tiles 2 green_20.asset
+  artifactKey: Guid(d3f7358d567f46e4f9dcdf9db752bb8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 green_20.asset using Guid(d3f7358d567f46e4f9dcdf9db752bb8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2825106e8c0228bf29b25ae0edaa1664') in 0.010583 seconds 
+  Import took 0.014112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/sprites/tiles/space tiles 2 blue_1.asset
+  artifactKey: Guid(8a7c7fff0fe658d45a1a49754effd7dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 blue_1.asset using Guid(8a7c7fff0fe658d45a1a49754effd7dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96043f383003375768f6cba5f028b167') in 0.008741 seconds 
+  Import took 0.012099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/sprites/tiles/space tiles 2 green_1.asset
+  artifactKey: Guid(03c74cf78a5e45a40bc96bc2b1e064ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 green_1.asset using Guid(03c74cf78a5e45a40bc96bc2b1e064ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c44e4be711b5bc4583ec4597f7432621') in 0.016596 seconds 
+  Import took 0.019809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/sprites/tiles/space tiles 2 blue_2.asset
+  artifactKey: Guid(02930453090e2ba43a7ce3cc1b0c2972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 blue_2.asset using Guid(02930453090e2ba43a7ce3cc1b0c2972) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '866dba5090745a59cd0a0698430eda8e') in 0.010068 seconds 
+  Import took 0.013164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/sprites/tiles/space tiles 2 blue_29.asset
+  artifactKey: Guid(8699002ff20075b49bd14e6aab83883e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 blue_29.asset using Guid(8699002ff20075b49bd14e6aab83883e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3314404e306fe67d799881c1b13a9240') in 0.011046 seconds 
+  Import took 0.014091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/sprites/tiles/space tiles 2 purple_4.asset
+  artifactKey: Guid(4a53e99430527d9459aaf91062fd272e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 purple_4.asset using Guid(4a53e99430527d9459aaf91062fd272e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c20570e327f898f0082b9d9c4253b15d') in 0.012022 seconds 
+  Import took 0.015417 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/sprites/tiles/space tiles 2 green_31.asset
+  artifactKey: Guid(98a79d5ce9582714c97ef8790d49cdfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 green_31.asset using Guid(98a79d5ce9582714c97ef8790d49cdfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '989331c5a17ec50b116c6fa5006f63a2') in 0.034941 seconds 
+  Import took 0.038217 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/sprites/tiles/space tiles 2 green_25.asset
+  artifactKey: Guid(168ef60929afd6c4e83098eca8c4cea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 green_25.asset using Guid(168ef60929afd6c4e83098eca8c4cea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfa1433d7413d79e947eea056e5f8aaa') in 0.010857 seconds 
+  Import took 0.014216 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/sprites/tiles/space tiles 2 blue_20.asset
+  artifactKey: Guid(a62e1fce53e52f343acf1f0fbd3fce4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 blue_20.asset using Guid(a62e1fce53e52f343acf1f0fbd3fce4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9cae4e7ea3413af11783167a8a596fa') in 0.010122 seconds 
+  Import took 0.013029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/sprites/tiles/space tiles 2 blue_21.asset
+  artifactKey: Guid(5ee8f9f41e072a84ebe2bdcec9f36e4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 blue_21.asset using Guid(5ee8f9f41e072a84ebe2bdcec9f36e4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44a05a312c56786371fff040d6c20fb3') in 0.011052 seconds 
+  Import took 0.014830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/sprites/tiles/space tiles 2 blue_14.asset
+  artifactKey: Guid(927c5f7792d62704b829a2bcfb0a9f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 blue_14.asset using Guid(927c5f7792d62704b829a2bcfb0a9f01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17347004d52fdcc87623f559df8d24da') in 0.009070 seconds 
+  Import took 0.012410 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/sprites/tiles/space tiles 2 green_0.asset
+  artifactKey: Guid(d006dacf746515d4bb89b72bb7ee70de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 green_0.asset using Guid(d006dacf746515d4bb89b72bb7ee70de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c243d537ab731330efe8b3c6ac14f48') in 0.012303 seconds 
+  Import took 0.015658 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/sprites/tiles/space tiles 2 blue_18.asset
+  artifactKey: Guid(84a85f0f9d05d6d42b53376b9758a497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 blue_18.asset using Guid(84a85f0f9d05d6d42b53376b9758a497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c872e84c5530437212970b77e3be0abe') in 0.008844 seconds 
+  Import took 0.012224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/sprites/tiles/space tiles 2 blue_27.asset
+  artifactKey: Guid(80eb6f97c7165fd44a8307c3440df28c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 blue_27.asset using Guid(80eb6f97c7165fd44a8307c3440df28c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17e04bda4ab6567b37dce4885f1d9753') in 0.008890 seconds 
+  Import took 0.012078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/sprites/tiles/space tiles 2 green_8.asset
+  artifactKey: Guid(0f7963039df580a4aa99c42a63cc7e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 green_8.asset using Guid(0f7963039df580a4aa99c42a63cc7e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99291436745a6b574b5afe442e4e142b') in 0.010568 seconds 
+  Import took 0.013467 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/sprites/tiles/space tiles 2 green_28.asset
+  artifactKey: Guid(15c47a40d141bb0459d9eb33a26612d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 green_28.asset using Guid(15c47a40d141bb0459d9eb33a26612d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '640534891e7d5ea5785a045997e8d1e7') in 0.010507 seconds 
+  Import took 0.013383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/sprites/tiles/space tiles 2 green_17.asset
+  artifactKey: Guid(667d4bff389692b47839d578b365213c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 green_17.asset using Guid(667d4bff389692b47839d578b365213c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4db15ad70515c5d54bc3b2309cb24472') in 0.008784 seconds 
+  Import took 0.012143 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/sprites/tiles/space tiles 2 blue_7.asset
+  artifactKey: Guid(0c58a2da5fdb08e4698606e89bf6d0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 blue_7.asset using Guid(0c58a2da5fdb08e4698606e89bf6d0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32fc67021fe3970fde527db1d982f3c9') in 0.010373 seconds 
+  Import took 0.013294 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/sprites/tiles/space tiles 2 blue_16.asset
+  artifactKey: Guid(3e99963fb48c31c4e87babac7db06131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 blue_16.asset using Guid(3e99963fb48c31c4e87babac7db06131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abc2a0e9b6155bc5ad77c642bbd8e48a') in 0.010079 seconds 
+  Import took 0.013413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/sprites/tiles/space tiles 2 green_3.asset
+  artifactKey: Guid(e5e5281e132abd24e967673ebb23dc2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 green_3.asset using Guid(e5e5281e132abd24e967673ebb23dc2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca40cd38487b034a17f6e78142e7af55') in 0.009500 seconds 
+  Import took 0.012830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/sprites/tiles/space tiles 2 green_12.asset
+  artifactKey: Guid(04f104f42ba21e4438f3340a4f9989ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 green_12.asset using Guid(04f104f42ba21e4438f3340a4f9989ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e73ba3804f0e6b715718c65b1eb81779') in 0.010214 seconds 
+  Import took 0.013132 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/sprites/tiles/space tiles 2 green_5.asset
+  artifactKey: Guid(0c495a9c0fe49b643994ff3ca552c92f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 green_5.asset using Guid(0c495a9c0fe49b643994ff3ca552c92f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb0c4c145784f91cf7e126d5e6bceb0f') in 0.010120 seconds 
+  Import took 0.013376 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000197 seconds.
+  path: Assets/sprites/tiles/space tiles 2 green_6.asset
+  artifactKey: Guid(caa45a621eb2bdb44acbac3d976dd894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 green_6.asset using Guid(caa45a621eb2bdb44acbac3d976dd894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61401c8371941f01ccb4a3d182d9d837') in 0.011379 seconds 
+  Import took 0.014743 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/sprites/tiles/space tiles 2 blue_10.asset
+  artifactKey: Guid(d63a58563b3b7ed4185caf3fe77739ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 blue_10.asset using Guid(d63a58563b3b7ed4185caf3fe77739ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '229ff1f6bae505d5102113670d1a3134') in 0.009256 seconds 
+  Import took 0.012181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/sprites/tiles/space tiles 2 green_9.asset
+  artifactKey: Guid(fc326d132e3a93d479d1ea334d352094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 green_9.asset using Guid(fc326d132e3a93d479d1ea334d352094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25dbe2e0e251a9ee8eb57e61c02a3043') in 0.020595 seconds 
+  Import took 0.023834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/sprites/tiles/space tiles 2 green_22.asset
+  artifactKey: Guid(705b9cc70211fa945af9f95c9b3f9f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 green_22.asset using Guid(705b9cc70211fa945af9f95c9b3f9f96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7ddda0ccb4ecc5c33a2d5e43644b0ff') in 0.013997 seconds 
+  Import took 0.017344 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/sprites/tiles/space tiles 2 blue_24.asset
+  artifactKey: Guid(7a0150fd3342594408b552c44abcd3be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 blue_24.asset using Guid(7a0150fd3342594408b552c44abcd3be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcea6cf99a110ab5730dc1431206421c') in 0.020986 seconds 
+  Import took 0.024319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/sprites/tiles/space tiles 2 green_13.asset
+  artifactKey: Guid(4cb00cfbd36fecb4d847bb7c91981bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 green_13.asset using Guid(4cb00cfbd36fecb4d847bb7c91981bc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8d856efe399f2a002bfd9be640c72f9') in 0.010463 seconds 
+  Import took 0.013822 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000210 seconds.
+  path: Assets/sprites/tiles/space tiles 2 green_29.asset
+  artifactKey: Guid(088b6412936288340a2cbf6a89a80315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 green_29.asset using Guid(088b6412936288340a2cbf6a89a80315) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc01ffb75c3c982a898424d0080cb7b9') in 0.009793 seconds 
+  Import took 0.012937 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/sprites/tiles/space tiles 2 green_14.asset
+  artifactKey: Guid(d3a7a09a194d1774485e893ff29d0e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 green_14.asset using Guid(d3a7a09a194d1774485e893ff29d0e40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcc1f302800b81fc05a0fb644161de11') in 0.010240 seconds 
+  Import took 0.013114 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/sprites/tiles/space tiles 2 blue_19.asset
+  artifactKey: Guid(f90188b4ec985414da265f3b34c81e62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 blue_19.asset using Guid(f90188b4ec985414da265f3b34c81e62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35a828f3a5348b783f76c79bf719f5f4') in 0.010365 seconds 
+  Import took 0.013967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000194 seconds.
+  path: Assets/sprites/tiles/space tiles 2 blue_13.asset
+  artifactKey: Guid(08a88d75ed8c11549add464fd8e4753a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 blue_13.asset using Guid(08a88d75ed8c11549add464fd8e4753a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '430a08cbe53543c38418e95546dd739e') in 0.011647 seconds 
+  Import took 0.014710 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000189 seconds.
+  path: Assets/sprites/tiles/space tiles 2 green_26.asset
+  artifactKey: Guid(81575765668c502489028c271ceca2e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 green_26.asset using Guid(81575765668c502489028c271ceca2e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14ffecdff91a6fce47a2c7ef5e3cc9f8') in 0.009524 seconds 
+  Import took 0.012694 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/sprites/tiles/space tiles 2 blue_5.asset
+  artifactKey: Guid(e3d4d897f52b7d14bb5a019f8aaded71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 blue_5.asset using Guid(e3d4d897f52b7d14bb5a019f8aaded71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d06957ba109a5e2d915b595bde510a1') in 0.010284 seconds 
+  Import took 0.013229 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/sprites/tiles/space tiles 2 green_7.asset
+  artifactKey: Guid(b39833129218c2d48a67664fdf5ce1d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 green_7.asset using Guid(b39833129218c2d48a67664fdf5ce1d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c07f23dee6fb008369df330fe530e326') in 0.010334 seconds 
+  Import took 0.013285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/sprites/tiles/space tiles 2 green_24.asset
+  artifactKey: Guid(86a36117e5cba47469386fc8941c6da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 green_24.asset using Guid(86a36117e5cba47469386fc8941c6da5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c62d894feb832d9078b1e5e3763e99f') in 0.010445 seconds 
+  Import took 0.013666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/sprites/tiles/space tiles 2 green_16.asset
+  artifactKey: Guid(14f4d078903ad0748b12727b3e71c881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 green_16.asset using Guid(14f4d078903ad0748b12727b3e71c881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eeebf7c264a002167d6c7aeabc9a6070') in 0.008956 seconds 
+  Import took 0.012201 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/sprites/tiles/space tiles 2 purple_0.asset
+  artifactKey: Guid(3bc5e81a095916e4a9504d83b8f6f256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 purple_0.asset using Guid(3bc5e81a095916e4a9504d83b8f6f256) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3848650e74511f9cd42de7dafffc36e1') in 0.009234 seconds 
+  Import took 0.012330 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/sprites/tiles/space tiles 2 green_18.asset
+  artifactKey: Guid(cab5ace03a599f74caac74cd273b0fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 green_18.asset using Guid(cab5ace03a599f74caac74cd273b0fdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cdcc27a295fd390d47a6071516d2e4b') in 0.008934 seconds 
+  Import took 0.012266 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/sprites/tiles/space tiles 2 green_4.asset
+  artifactKey: Guid(a5af8052aa4a0454dbb26630f840cece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 green_4.asset using Guid(a5af8052aa4a0454dbb26630f840cece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdc90c082fcc412a8d073203337074c1') in 0.010615 seconds 
+  Import took 0.013952 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/sprites/tiles/space tiles 2 blue_25.asset
+  artifactKey: Guid(f150782c205644b4ea041ed4672e8a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 blue_25.asset using Guid(f150782c205644b4ea041ed4672e8a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f10106a586120647873b697ad5443211') in 0.008699 seconds 
+  Import took 0.011938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/sprites/tiles/space tiles 2 green_2.asset
+  artifactKey: Guid(ed806c880a33f5847ab57516810093dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 green_2.asset using Guid(ed806c880a33f5847ab57516810093dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '667afab392897f11be996f1b97453224') in 0.012377 seconds 
+  Import took 0.015712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000223 seconds.
+  path: Assets/sprites/tiles/space tiles 2 blue_9.asset
+  artifactKey: Guid(2ad173fb5eeefa7449b1bdd24b1df193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 blue_9.asset using Guid(2ad173fb5eeefa7449b1bdd24b1df193) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '623ada44997b8afaa098d5ba1c3f121e') in 0.009768 seconds 
+  Import took 0.013262 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/sprites/tiles/space tiles 2 blue_26.asset
+  artifactKey: Guid(2a2df2a8f28fb494ab7803bb4abfe0dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 blue_26.asset using Guid(2a2df2a8f28fb494ab7803bb4abfe0dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d3c5e16fccc4a4198aa1bad2e81644d') in 0.010586 seconds 
+  Import took 0.013572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/sprites/tiles/space tiles 2 blue_31.asset
+  artifactKey: Guid(b5e3325734a9c3a47adcd94d0d84d415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 blue_31.asset using Guid(b5e3325734a9c3a47adcd94d0d84d415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a355c4d0cdb3c7e64388ec79dfdaea3') in 0.009835 seconds 
+  Import took 0.013103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/sprites/tiles/space tiles 2 blue_6.asset
+  artifactKey: Guid(104f0fcff6d759d40b3a530631647f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 blue_6.asset using Guid(104f0fcff6d759d40b3a530631647f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd73ead9be721c690362d00e1b35efb19') in 0.010868 seconds 
+  Import took 0.014529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000289 seconds.
+  path: Assets/sprites/tiles/space tiles 2 purple_3.asset
+  artifactKey: Guid(c5046c70273bf8a4dafcd77ca416c270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 purple_3.asset using Guid(c5046c70273bf8a4dafcd77ca416c270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5caada8910cf223caed0f0d0647289f5') in 0.009652 seconds 
+  Import took 0.013043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/sprites/tiles/space tiles 2 blue_17.asset
+  artifactKey: Guid(d4df9724973203b4a8f309a449748652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 blue_17.asset using Guid(d4df9724973203b4a8f309a449748652) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '105f85d0694c3c61cd408f6b86ec4253') in 0.009740 seconds 
+  Import took 0.012954 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/sprites/tiles/space tiles 2 blue_30.asset
+  artifactKey: Guid(736b1c43e3abb8c4eba4e548c5ce0fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 blue_30.asset using Guid(736b1c43e3abb8c4eba4e548c5ce0fb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2cd83be55a59331590749bd24d0c5f0') in 0.008943 seconds 
+  Import took 0.012221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/sprites/tiles/space tiles 2 purple_1.asset
+  artifactKey: Guid(d1ab84d5ff70e184c975b3d73c285362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 purple_1.asset using Guid(d1ab84d5ff70e184c975b3d73c285362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f31b205cbfdae70b7aed0ae120b807bf') in 0.008910 seconds 
+  Import took 0.012048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/sprites/tiles/space tiles 2 green_15.asset
+  artifactKey: Guid(30908ef738df90540a99d9c959231049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 green_15.asset using Guid(30908ef738df90540a99d9c959231049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83482d54aff54f0eea671979524da3ea') in 0.009030 seconds 
+  Import took 0.012346 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 98.757471 seconds.
+  path: Assets/sprites/tiles/space tiles 2 purple_5.asset
+  artifactKey: Guid(f376b0ae93e11104abafd15783ca94fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 purple_5.asset using Guid(f376b0ae93e11104abafd15783ca94fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd665c463b2e4caba4d220b87bf102e1') in 0.010103 seconds 
+  Import took 0.013434 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/sprites/tiles/space tiles 2 purple_16.asset
+  artifactKey: Guid(bd2f5d72a6a1625488e7575e2c5b3d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 purple_16.asset using Guid(bd2f5d72a6a1625488e7575e2c5b3d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83e0dfba7c90d5a5f2baa745b3cc2ec2') in 0.009545 seconds 
+  Import took 0.012762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/sprites/tiles/space tiles 2 purple_19.asset
+  artifactKey: Guid(779fe4bbd427ee0488d5ef87235b5b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 purple_19.asset using Guid(779fe4bbd427ee0488d5ef87235b5b98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba6c8bbc44745b2b47b0a650b52cd0d0') in 0.008356 seconds 
+  Import took 0.011908 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/sprites/tiles/space tiles 2 purple_18.asset
+  artifactKey: Guid(03ed9f5a9177a4447b0e32a9e947a0cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 purple_18.asset using Guid(03ed9f5a9177a4447b0e32a9e947a0cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3980d6f9a07f20b0e7183161a4bc9a9c') in 0.009566 seconds 
+  Import took 0.012824 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/sprites/tiles/space tiles 2 purple_12.asset
+  artifactKey: Guid(7d0ad7057d4405b489f72e2340487459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 purple_12.asset using Guid(7d0ad7057d4405b489f72e2340487459) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bad758948546d2468d79ac7e43220c65') in 0.009575 seconds 
+  Import took 0.012548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/sprites/tiles/space tiles 2 purple_22.asset
+  artifactKey: Guid(ce5df83a16cb85c429b72b87cee33f33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 purple_22.asset using Guid(ce5df83a16cb85c429b72b87cee33f33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '876bdede40495d530cf7a9efae53b4ad') in 0.008500 seconds 
+  Import took 0.011371 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/sprites/tiles/space tiles 2 purple_23.asset
+  artifactKey: Guid(4273f2f7c7ca49a4fbac87193e7dccba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 purple_23.asset using Guid(4273f2f7c7ca49a4fbac87193e7dccba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f4c2624ddbf37acfd0fb56197149c86') in 0.009383 seconds 
+  Import took 0.012297 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/sprites/tiles/space tiles 2 purple_26.asset
+  artifactKey: Guid(dcfeb347cf97a9241a6e7034c433f280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 purple_26.asset using Guid(dcfeb347cf97a9241a6e7034c433f280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '073ca7928cd6a9dab5ffbbd8bd7e6b11') in 0.008859 seconds 
+  Import took 0.012167 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000177 seconds.
+  path: Assets/sprites/tiles/space tiles 2 yellow_10.asset
+  artifactKey: Guid(edeb7ace65354c740a447b4e990fd647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 yellow_10.asset using Guid(edeb7ace65354c740a447b4e990fd647) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66a3245a9e4bc97a1e1a7cceeb49ec59') in 0.008275 seconds 
+  Import took 0.011123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/sprites/tiles/space tiles 2 yellow_14.asset
+  artifactKey: Guid(cdd49a3dc0cb38d4f8458562541e16b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 yellow_14.asset using Guid(cdd49a3dc0cb38d4f8458562541e16b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5df68ce214e1ae57557c1d18c64e558b') in 0.008367 seconds 
+  Import took 0.011241 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000225 seconds.
+  path: Assets/sprites/tiles/space tiles 2 yellow_8.asset
+  artifactKey: Guid(e710156b9acf7c949a9578116809ad7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 yellow_8.asset using Guid(e710156b9acf7c949a9578116809ad7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06cac3502182c461d94267b70a93e771') in 0.010024 seconds 
+  Import took 0.013044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/sprites/tiles/space tiles 2 purple_13.asset
+  artifactKey: Guid(17ed2a9f7a9bdaf4590cfa3a1c4304c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 purple_13.asset using Guid(17ed2a9f7a9bdaf4590cfa3a1c4304c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b761f287dd8d4e07227394a112995edb') in 0.008718 seconds 
+  Import took 0.011949 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/sprites/tiles/space tiles 2 yellow_0.asset
+  artifactKey: Guid(e82dec928f2130c48af6fa8dee12639c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 yellow_0.asset using Guid(e82dec928f2130c48af6fa8dee12639c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e88d98acecb4daaed25a9d71ee81ed63') in 0.009874 seconds 
+  Import took 0.012966 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/sprites/tiles/space tiles 2 purple_8.asset
+  artifactKey: Guid(b0011c8d938b04440bc662f8c081bf6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 purple_8.asset using Guid(b0011c8d938b04440bc662f8c081bf6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c61fa3777798722114fce803fa9ab657') in 0.009708 seconds 
+  Import took 0.013105 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/sprites/tiles/space tiles 2 purple_6.asset
+  artifactKey: Guid(defb7cfbb13a59341beac0f3c2a2ffb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 purple_6.asset using Guid(defb7cfbb13a59341beac0f3c2a2ffb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26b3d4e639856819b29727a4e93d1fe1') in 0.009018 seconds 
+  Import took 0.012413 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/sprites/tiles/space tiles 2 yellow_9.asset
+  artifactKey: Guid(88b009bc446c0854a9f5d9a15ae11ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 yellow_9.asset using Guid(88b009bc446c0854a9f5d9a15ae11ed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b38a9aaf4b2ac2b2caf32eab92c3e84') in 0.009727 seconds 
+  Import took 0.013034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/sprites/tiles/space tiles 2 purple_15.asset
+  artifactKey: Guid(7a083e8351d42c84f9a321131b17c0b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 purple_15.asset using Guid(7a083e8351d42c84f9a321131b17c0b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51ecb9c5d18e54b3b1fed5d2ed190ffe') in 0.010123 seconds 
+  Import took 0.013079 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/sprites/tiles/space tiles 2 purple_24.asset
+  artifactKey: Guid(6dc2a7063229e7c48bb08a710403203c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 purple_24.asset using Guid(6dc2a7063229e7c48bb08a710403203c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2defb57920179fa206e808faa8b9dcd5') in 0.009985 seconds 
+  Import took 0.026958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/sprites/tiles/space tiles 2 purple_31.asset
+  artifactKey: Guid(72e45992ec9eef9449ce772c07dff22b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 purple_31.asset using Guid(72e45992ec9eef9449ce772c07dff22b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9985d8542615c21d70fadd27de4a288') in 0.009249 seconds 
+  Import took 0.012600 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/sprites/tiles/space tiles 2 yellow_6.asset
+  artifactKey: Guid(72d026707de470b44a5e5cb526dd3abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 yellow_6.asset using Guid(72d026707de470b44a5e5cb526dd3abc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b90290876d7745e44d7d6937db827015') in 0.008356 seconds 
+  Import took 0.011604 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/sprites/tiles/space tiles 2 yellow_16.asset
+  artifactKey: Guid(1c54846cbb84b034c995bb07ae0d4e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 yellow_16.asset using Guid(1c54846cbb84b034c995bb07ae0d4e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbaf7099975d2540a6c7023760b03431') in 0.009402 seconds 
+  Import took 0.017858 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/sprites/tiles/space tiles 2 yellow_5.asset
+  artifactKey: Guid(ddb05d6caef2ae945af173dc17de08f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 yellow_5.asset using Guid(ddb05d6caef2ae945af173dc17de08f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cca559c5c1ec80aa1647b53486eb5e1d') in 0.008308 seconds 
+  Import took 0.011615 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/sprites/tiles/space tiles 2 purple_17.asset
+  artifactKey: Guid(661fa76fa1668164fa9904fd14a0bcca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 purple_17.asset using Guid(661fa76fa1668164fa9904fd14a0bcca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d8151adad184bcc36d60ff7e585ed5e') in 0.009652 seconds 
+  Import took 0.012714 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/sprites/tiles/space tiles 2 yellow_12.asset
+  artifactKey: Guid(1233429f6ff1c3647850c78757a3585b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 yellow_12.asset using Guid(1233429f6ff1c3647850c78757a3585b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa85c9f701a8e51c9f59c9d87e45c293') in 0.008546 seconds 
+  Import took 0.020057 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/sprites/tiles/space tiles 2 purple_14.asset
+  artifactKey: Guid(5e2b00cd48e60af4c90eca300b74e997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 purple_14.asset using Guid(5e2b00cd48e60af4c90eca300b74e997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cec0a9882c083baa978cf237208c6f9c') in 0.010065 seconds 
+  Import took 0.012938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000195 seconds.
+  path: Assets/sprites/tiles/space tiles 2 yellow_2.asset
+  artifactKey: Guid(b553cf05815a2ca4e9407451d32912bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 yellow_2.asset using Guid(b553cf05815a2ca4e9407451d32912bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5f610514ee8b04c885b6b3831b857ac') in 0.009268 seconds 
+  Import took 0.012256 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/sprites/tiles/space tiles 2 yellow_4.asset
+  artifactKey: Guid(afcb94a4521e2254988e4c9fba6c71b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 yellow_4.asset using Guid(afcb94a4521e2254988e4c9fba6c71b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10f14f24b8279e2b40aa5225c20ea413') in 0.018999 seconds 
+  Import took 0.022257 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/sprites/tiles/space tiles 2 purple_9.asset
+  artifactKey: Guid(3dec12fa49220424280f87be34775eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 purple_9.asset using Guid(3dec12fa49220424280f87be34775eaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1354d378eac9403ccee7781f71bcdcfe') in 0.008217 seconds 
+  Import took 0.011026 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/sprites/tiles/space tiles 2 yellow_21.asset
+  artifactKey: Guid(46c5ebe4186da764da7d9409ce9c4f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 yellow_21.asset using Guid(46c5ebe4186da764da7d9409ce9c4f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5c814536010b3abd489d30a2d1834d0') in 0.009205 seconds 
+  Import took 0.012190 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/sprites/tiles/space tiles 2 yellow_28.asset
+  artifactKey: Guid(09d6b031a98e57a4493989acbd15a11d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 yellow_28.asset using Guid(09d6b031a98e57a4493989acbd15a11d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b10b15e2299021f6be9e3f44a273efa7') in 0.009868 seconds 
+  Import took 0.013170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/sprites/tiles/space tiles 2 yellow_31.asset
+  artifactKey: Guid(7aa2b70cb6099b641a0269227f9acbf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 yellow_31.asset using Guid(7aa2b70cb6099b641a0269227f9acbf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87f03f90e60b26cc5ddbe94b4f56a359') in 0.009987 seconds 
+  Import took 0.012803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/sprites/tiles/space tiles 2 yellow_17.asset
+  artifactKey: Guid(4db2df927a3f3b44294d7febd5e220c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 yellow_17.asset using Guid(4db2df927a3f3b44294d7febd5e220c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fa93c2be48e4e8d194bef37e8288afd') in 0.009636 seconds 
+  Import took 0.012868 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/sprites/tiles/space tiles 2 yellow_29.asset
+  artifactKey: Guid(a5a9a1879e645ea40b83f01135615b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 yellow_29.asset using Guid(a5a9a1879e645ea40b83f01135615b24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f1a24a6f91e2d49937adfe76ca942ab') in 0.008895 seconds 
+  Import took 0.012183 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/sprites/tiles/space tiles 2 yellow_22.asset
+  artifactKey: Guid(9a62dfc30250b094db57cc56651b280f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 yellow_22.asset using Guid(9a62dfc30250b094db57cc56651b280f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c8819afc39abcee217e234482e3cc73') in 0.008826 seconds 
+  Import took 0.021296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/sprites/tiles/space tiles 2 yellow_20.asset
+  artifactKey: Guid(cd4517e116fecfe4a8647b5fe4370749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 yellow_20.asset using Guid(cd4517e116fecfe4a8647b5fe4370749) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eea0f08217b94634f22c8cf8ab4eac4') in 0.009531 seconds 
+  Import took 0.012476 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000230 seconds.
+  path: Assets/sprites/tiles/space tiles 2 yellow_27.asset
+  artifactKey: Guid(cba645868f7aca74f8191c2736d75b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 yellow_27.asset using Guid(cba645868f7aca74f8191c2736d75b4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b03d98b4a61e9cb35cd4145b625dbdb') in 0.009191 seconds 
+  Import took 0.012736 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/sprites/tiles/space tiles 2 purple_21.asset
+  artifactKey: Guid(2b29d7cdf6dad7848801d8d2c62b7719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 purple_21.asset using Guid(2b29d7cdf6dad7848801d8d2c62b7719) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7216ec866b329de7e39c69b9facc008') in 0.008349 seconds 
+  Import took 0.011707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/sprites/tiles/space tiles 2 yellow_3.asset
+  artifactKey: Guid(79ed824aa538c0d438c7fff27a03446f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 yellow_3.asset using Guid(79ed824aa538c0d438c7fff27a03446f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcd0729d9adfe581741b6d8f4a488e72') in 0.009847 seconds 
+  Import took 0.013133 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/sprites/tiles/space tiles 2 yellow_26.asset
+  artifactKey: Guid(ed746eb4a2d75df48a2f514d29c5717f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 yellow_26.asset using Guid(ed746eb4a2d75df48a2f514d29c5717f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c860119d519a7b0e4de719e0030fe0e6') in 0.009146 seconds 
+  Import took 0.012441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/sprites/tiles/space tiles 2 yellow_15.asset
+  artifactKey: Guid(11887f52abb67e84f93bf09b0c10ae4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 yellow_15.asset using Guid(11887f52abb67e84f93bf09b0c10ae4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cf4556172968a0af0f894110cb38aa6') in 0.009133 seconds 
+  Import took 0.012386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/sprites/tiles/space tiles 2 purple_25.asset
+  artifactKey: Guid(dc768a6e1271fec4cb2442787f9d5575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 purple_25.asset using Guid(dc768a6e1271fec4cb2442787f9d5575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a17eef3648622729853cc2cc93943208') in 0.010383 seconds 
+  Import took 0.013670 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/sprites/tiles/space tiles 2 purple_20.asset
+  artifactKey: Guid(50d85aee442a1d0439b656032f2efefc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 purple_20.asset using Guid(50d85aee442a1d0439b656032f2efefc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e65e191db6d407145e49441ef5891ec') in 0.010017 seconds 
+  Import took 0.013293 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000178 seconds.
+  path: Assets/sprites/tiles/space tiles 2 purple_29.asset
+  artifactKey: Guid(d6648c3b2b554844fb59cfc17eae3a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 purple_29.asset using Guid(d6648c3b2b554844fb59cfc17eae3a24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0c6af90df6448762ed8eef63a3892df') in 0.008407 seconds 
+  Import took 0.011364 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/sprites/tiles/space tiles 2 yellow_11.asset
+  artifactKey: Guid(31b3059c2f3acd44ab0bb4499a1928c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 yellow_11.asset using Guid(31b3059c2f3acd44ab0bb4499a1928c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e0bb362b297eb223f1cd52f91c8c33a') in 0.008417 seconds 
+  Import took 0.011723 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/sprites/tiles/space tiles 2 yellow_1.asset
+  artifactKey: Guid(00b6d08b3b26fd64eb22ffebd9ccea79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 yellow_1.asset using Guid(00b6d08b3b26fd64eb22ffebd9ccea79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8039ee35b410c1f8981a05d02b630e73') in 0.008649 seconds 
+  Import took 0.012173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/sprites/tiles/space tiles 2 purple_28.asset
+  artifactKey: Guid(bf839e959c4b2904abb3dd44df343854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 purple_28.asset using Guid(bf839e959c4b2904abb3dd44df343854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dea821f25f855520bfdc04a591d94b92') in 0.008577 seconds 
+  Import took 0.012064 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000206 seconds.
+  path: Assets/sprites/tiles/space tiles 2 purple_27.asset
+  artifactKey: Guid(4313e3560b9a78c47ae7041c8eedff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 purple_27.asset using Guid(4313e3560b9a78c47ae7041c8eedff07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e57d3c058ccdd9ccaee4f52b8446a2db') in 0.008624 seconds 
+  Import took 0.020050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/sprites/tiles/space tiles 2 yellow_24.asset
+  artifactKey: Guid(f67886dcecb23064a876382a79117ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 yellow_24.asset using Guid(f67886dcecb23064a876382a79117ef5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fae791fc94dbfaad7f8801b1aac8a35') in 0.010242 seconds 
+  Import took 0.013454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/sprites/tiles/space tiles 2 yellow_18.asset
+  artifactKey: Guid(fad7f058acf8e314e983da67e0af8a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 yellow_18.asset using Guid(fad7f058acf8e314e983da67e0af8a4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06792dfb15373974ef143d6b6e613ee2') in 0.008168 seconds 
+  Import took 0.010946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/sprites/tiles/space tiles 2 yellow_19.asset
+  artifactKey: Guid(eff16ba4dc57b1244b2329451e7b97aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 yellow_19.asset using Guid(eff16ba4dc57b1244b2329451e7b97aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eecf8c0d9e0a26773ad736a021ab1040') in 0.008336 seconds 
+  Import took 0.011332 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/sprites/tiles/space tiles 2 purple_10.asset
+  artifactKey: Guid(f7e002875673fed4f943e3c96e82c18b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 purple_10.asset using Guid(f7e002875673fed4f943e3c96e82c18b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e3fee5d256a9f8c44d979a6afd36c24') in 0.008553 seconds 
+  Import took 0.011465 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/sprites/tiles/space tiles 2 yellow_30.asset
+  artifactKey: Guid(9db9fbc3f9fe6914a9d1dbc768ad2394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 yellow_30.asset using Guid(9db9fbc3f9fe6914a9d1dbc768ad2394) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7732a180c020ccb8241aafb6be4f3e48') in 0.009011 seconds 
+  Import took 0.012398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/sprites/tiles/space tiles 2 yellow_13.asset
+  artifactKey: Guid(0daaf1b75a6254f498509c7e4615cdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 yellow_13.asset using Guid(0daaf1b75a6254f498509c7e4615cdce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7467b4eb37b43397756ef80d7fac952') in 0.009967 seconds 
+  Import took 0.013310 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/sprites/tiles/space tiles 2 yellow_23.asset
+  artifactKey: Guid(0f383f2232abff6429fec272beff6388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 yellow_23.asset using Guid(0f383f2232abff6429fec272beff6388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '062f0a6aa105e75a9eb0d15739c7d68d') in 0.009191 seconds 
+  Import took 0.012408 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/sprites/tiles/space tiles 2 yellow_25.asset
+  artifactKey: Guid(64e7a5506c0056746aa3a089868f3227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 yellow_25.asset using Guid(64e7a5506c0056746aa3a089868f3227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20080e3c7bdc2bc2b43346ec9939958c') in 0.009522 seconds 
+  Import took 0.012439 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/sprites/tiles/space tiles 2 purple_7.asset
+  artifactKey: Guid(6dda6427f6bdfca44b2bcf4996031fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 purple_7.asset using Guid(6dda6427f6bdfca44b2bcf4996031fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08a17d4c84d3588b51e37e0350e6c237') in 0.009320 seconds 
+  Import took 0.012263 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000205 seconds.
+  path: Assets/sprites/tiles/space tiles 2 purple_11.asset
+  artifactKey: Guid(91950f106f451f0499abd3702bd3d131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 purple_11.asset using Guid(91950f106f451f0499abd3702bd3d131) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6cd8bc48f137131bce97fde04f2250c') in 0.008820 seconds 
+  Import took 0.012703 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/sprites/tiles/space tiles 2 yellow_7.asset
+  artifactKey: Guid(d5b2127d4f27ed949a3829aad7decdea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 yellow_7.asset using Guid(d5b2127d4f27ed949a3829aad7decdea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f858b4bd9002ea2f40ce44e686e547bb') in 0.008597 seconds 
+  Import took 0.011979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/sprites/tiles/space tiles 2 purple_30.asset
+  artifactKey: Guid(baa7901c7eaf0254e88941c4d9db516c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 purple_30.asset using Guid(baa7901c7eaf0254e88941c4d9db516c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd69e3ff9ec0103f1030ab164ac912a61') in 0.009381 seconds 
+  Import took 0.012472 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.548175 seconds.
+  path: Assets/sprites/tiles/space tiles 2 yellow.png
+  artifactKey: Guid(3811114e96f14264bb23f8a2f8b1ef1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 yellow.png using Guid(3811114e96f14264bb23f8a2f8b1ef1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34f402f97f45e121337214fab52b7b06') in 0.043671 seconds 
+  Import took 0.047556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.057044 seconds.
+  path: Assets/sprites/tiles/space tiles 2 yellow.png
+  artifactKey: Guid(3811114e96f14264bb23f8a2f8b1ef1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 yellow.png using Guid(3811114e96f14264bb23f8a2f8b1ef1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '716905ed1c702f84cd0979cf8c6a5bf6') in 0.051783 seconds 
+  Import took 0.055044 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.719064 seconds.
+  path: Assets/sprites/tiles/space tiles 2 yellow.png
+  artifactKey: Guid(3811114e96f14264bb23f8a2f8b1ef1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 yellow.png using Guid(3811114e96f14264bb23f8a2f8b1ef1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d1b05aeae23e2df469ad01ae22c1d88') in 0.059044 seconds 
+  Import took 0.062373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.456658 seconds.
+  path: Assets/sprites/tiles/space tiles 2 yellow.png
+  artifactKey: Guid(3811114e96f14264bb23f8a2f8b1ef1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 yellow.png using Guid(3811114e96f14264bb23f8a2f8b1ef1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52eb797a25efa7b49d71506cee7d047b') in 0.055450 seconds 
+  Import took 0.058876 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 20.914241 seconds.
+  path: Assets/sprites/tiles/space tiles 2 green.png
+  artifactKey: Guid(dd80358e14d78ba4b82e7aa87096953c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 green.png using Guid(dd80358e14d78ba4b82e7aa87096953c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a1092939a8ee0ba68f2d1f673eb0ed1') in 0.057915 seconds 
+  Import took 0.061557 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/sprites/tiles/space tiles 2 blue.png
+  artifactKey: Guid(9066d509e2d2dd543a870dcd285b7b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 blue.png using Guid(9066d509e2d2dd543a870dcd285b7b9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0959bf69726717e3b3757d6783800414') in 0.073446 seconds 
+  Import took 0.076434 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/sprites/tiles/space tiles 2 purple.png
+  artifactKey: Guid(8fa4734829562084ab40250473104afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space tiles 2 purple.png using Guid(8fa4734829562084ab40250473104afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b4318f4e9f36fdc004d42f7e99cdf1b') in 0.076190 seconds 
+  Import took 0.079637 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003499 seconds.
+Registered in 0.004112 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.044 seconds
+- Completed reload, in  1.039 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.69 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1781 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 174.0 MB.
-System memory in use after: 174.0 MB.
+System memory in use before: 177.0 MB.
+System memory in use after: 177.1 MB.
 
-Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2270.
-Total: 2.452700 ms (FindLiveObjects: 0.226100 ms CreateObjectMapping: 0.042900 ms MarkObjects: 2.051500 ms  DeleteObjects: 0.130800 ms)
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2278.
+Total: 2.403400 ms (FindLiveObjects: 0.196200 ms CreateObjectMapping: 0.045000 ms MarkObjects: 2.039500 ms  DeleteObjects: 0.121200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -132,26 +1340,50 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 1427.306186 seconds.
-  path: Assets/Scenes/basic scene.scenetemplate
-  artifactKey: Guid(d75dc4a6ac205a64cbd4a17b43cd962f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/basic scene.scenetemplate using Guid(d75dc4a6ac205a64cbd4a17b43cd962f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5f52bc521660dfffdae3488ae57a92a') in 0.317354 seconds 
-  Import took 0.328096 seconds .
+  Time since last request: 690.392667 seconds.
+  path: Assets/sprites/tiles/nebulas
+  artifactKey: Guid(1cf4d96a3d545734582857f213d10bff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/nebulas using Guid(1cf4d96a3d545734582857f213d10bff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07946e64aa540c8f6a6aea76bf69f6b3') in 0.009157 seconds 
+  Import took 0.012661 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 18.381701 seconds.
-  path: Assets/prefabs/player.prefab
-  artifactKey: Guid(6270f66c3af45a14783144ace764c15e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/player.prefab using Guid(6270f66c3af45a14783144ace764c15e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45f1e9ffc49b22bd2413fda4849eab40') in 0.094647 seconds 
-  Import took 0.098254 seconds .
+  Time since last request: 56.678424 seconds.
+  path: Assets/sprites/tiles/spacetiles.prefab
+  artifactKey: Guid(f558adc4684e099418ab24b103831f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/spacetiles.prefab using Guid(f558adc4684e099418ab24b103831f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1350722fe46018d71cf9750b0d847105') in 0.034395 seconds 
+  Import took 0.037639 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 819.166707 seconds.
-  path: Assets/Scenes/mission base.unity
-  artifactKey: Guid(0e32e2957e227f84094966ad657c66ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/mission base.unity using Guid(0e32e2957e227f84094966ad657c66ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60c92a8e2433dd2621f8176a304df81a') in 0.003152 seconds 
-  Import took 0.006688 seconds .
+  Time since last request: 0.000225 seconds.
+  path: Assets/sprites/tiles/sspace rock 2.asset
+  artifactKey: Guid(9b6d86c7683ab014eb6124e3361a94a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/sspace rock 2.asset using Guid(9b6d86c7683ab014eb6124e3361a94a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be3339d28d2df654a4bead73d6736277') in 0.027397 seconds 
+  Import took 0.030969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 79.916002 seconds.
+  path: Assets/sprites/tiles/spacetiles.prefab
+  artifactKey: Guid(f558adc4684e099418ab24b103831f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/spacetiles.prefab using Guid(f558adc4684e099418ab24b103831f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '083b878c89315c234c83950c6ad01f11') in 0.003473 seconds 
+  Import took 0.006789 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.636184 seconds.
+  path: Assets/sprites/tiles/sspace rock 2.png
+  artifactKey: Guid(9cd1765dbb37c174a96545e17b1804c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/sspace rock 2.png using Guid(9cd1765dbb37c174a96545e17b1804c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4757f40a34dc8e89b85f215c7ad5ea37') in 0.027011 seconds 
+  Import took 0.030591 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 131.253886 seconds.
+  path: Assets/sprites/tiles/sspace rock 2.png
+  artifactKey: Guid(9cd1765dbb37c174a96545e17b1804c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/sspace rock 2.png using Guid(9cd1765dbb37c174a96545e17b1804c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea8db39a826090f2f60ec336bc70fcff') in 0.006247 seconds 
+  Import took 0.009796 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

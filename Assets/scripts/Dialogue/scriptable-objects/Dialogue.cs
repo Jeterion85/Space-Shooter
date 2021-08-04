@@ -7,5 +7,6 @@ public class Dialogue
 {
      public Speaker speaker;
      public string dialogue;
+     public Color color; 
 
 }

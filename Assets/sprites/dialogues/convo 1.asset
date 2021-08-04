@@ -13,10 +13,92 @@ MonoBehaviour:
   m_Name: convo 1
   m_EditorClassIdentifier: 
   dialoguelines:
-  - speaker: {fileID: 11400000, guid: 1ff0bd45bc6dc244ea959488b316d639, type: 2}
-    dialogue: We need help
+  - speaker: {fileID: 11400000, guid: e0e3a2e07f9013f4bb775e30b247317e, type: 2}
+    dialogue: In the 7th Sector near the Sazrael System, a lone ship floats in the
+      void.
+    color: {r: 0, g: 0, b: 0, a: 1}
+  - speaker: {fileID: 11400000, guid: e0e3a2e07f9013f4bb775e30b247317e, type: 2}
+    dialogue: Within the ship the sound of fierce combat echoes throughout.
+    color: {r: 0, g: 0, b: 0, a: 1}
+  - speaker: {fileID: 11400000, guid: e0e3a2e07f9013f4bb775e30b247317e, type: 2}
+    dialogue: Bang, Crash, Brrr    ......      Ding
+    color: {r: 0, g: 0, b: 0, a: 1}
+  - speaker: {fileID: 11400000, guid: 37d4e5ace33c8084e9312d2603ab6010, type: 2}
+    dialogue: Dinner's ready.
+    color: {r: 0, g: 0, b: 0, a: 1}
+  - speaker: {fileID: 11400000, guid: 6c83e1e92c72f44479616f865df8c384, type: 2}
+    dialogue: .... You seriously need to fix the replicator.
+    color: {r: 0, g: 0, b: 0, a: 1}
+  - speaker: {fileID: 11400000, guid: 37d4e5ace33c8084e9312d2603ab6010, type: 2}
+    dialogue: And you need to clean your clothes more than once a week but you don't
+      see me complaining.
+    color: {r: 0, g: 0, b: 0, a: 1}
+  - speaker: {fileID: 11400000, guid: 6c83e1e92c72f44479616f865df8c384, type: 2}
+    dialogue: They're still as fresh as the day i bought them, You can't even smell
+      things.
+    color: {r: 0, g: 0, b: 0, a: 1}
+  - speaker: {fileID: 11400000, guid: 37d4e5ace33c8084e9312d2603ab6010, type: 2}
+    dialogue: FOOLISH INSEC-
+    color: {r: 1, g: 0, b: 0, a: 1}
+  - speaker: {fileID: 11400000, guid: 37d4e5ace33c8084e9312d2603ab6010, type: 2}
+    dialogue: I do have scent sensors. Scentsors if you will! HA. HA . HA.
+    color: {r: 0, g: 0, b: 0, a: 1}
+  - speaker: {fileID: 11400000, guid: 6c83e1e92c72f44479616f865df8c384, type: 2}
+    dialogue: Pilot where are you, dinner's ready and I really want to slap the robot.
+    color: {r: 0, g: 0, b: 0, a: 1}
+  - speaker: {fileID: 11400000, guid: 6c83e1e92c72f44479616f865df8c384, type: 2}
+    dialogue: Come quickly to stop me. Please.
+    color: {r: 0, g: 0, b: 0, a: 1}
+  - speaker: {fileID: 11400000, guid: 37d4e5ace33c8084e9312d2603ab6010, type: 2}
+    dialogue: NO RESCUE IS COMING. YOU SHALL SUFFER THE CONSEQUENCES OF YOUR ACTIONS.
+    color: {r: 1, g: 0, b: 0, a: 1}
+  - speaker: {fileID: 11400000, guid: 37d4e5ace33c8084e9312d2603ab6010, type: 2}
+    dialogue: No extra flavoring packet for you.
+    color: {r: 0, g: 0, b: 0, a: 1}
   - speaker: {fileID: 11400000, guid: e22e8112d1d2d9942bf8b3d3f6bd2adc, type: 2}
-    dialogue: A distress signal
+    dialogue: CAN YOU BOTH PLEASE SHUT UP? i'M LOOKING FOR SOMETHING.
+    color: {r: 0, g: 0, b: 0, a: 1}
+  - speaker: {fileID: 11400000, guid: 6c83e1e92c72f44479616f865df8c384, type: 2}
+    dialogue: You better not be in my stuff.
+    color: {r: 0, g: 0, b: 0, a: 1}
   - speaker: {fileID: 11400000, guid: e22e8112d1d2d9942bf8b3d3f6bd2adc, type: 2}
-    dialogue: Time for action
+    dialogue: Can't you hear this noise?
+    color: {r: 0, g: 0, b: 0, a: 1}
+  - speaker: {fileID: 11400000, guid: 6c83e1e92c72f44479616f865df8c384, type: 2}
+    dialogue: ... The ship?
+    color: {r: 0, g: 0, b: 0, a: 1}
+  - speaker: {fileID: 11400000, guid: 37d4e5ace33c8084e9312d2603ab6010, type: 2}
+    dialogue: I think he is referring to the barely audible static coming from the
+      deprecated device he refuses to throw away to listen to music.
+    color: {r: 0, g: 0, b: 0, a: 1}
+  - speaker: {fileID: 11400000, guid: e22e8112d1d2d9942bf8b3d3f6bd2adc, type: 2}
+    dialogue: Thank you! Here it is.
+    color: {r: 0, g: 0, b: 0, a: 1}
+  - speaker: {fileID: 11400000, guid: e0e3a2e07f9013f4bb775e30b247317e, type: 2}
+    dialogue: .....hzzz....hzhzh...
+    color: {r: 0, g: 0, b: 0, a: 1}
+  - speaker: {fileID: 11400000, guid: 37d4e5ace33c8084e9312d2603ab6010, type: 2}
+    dialogue: You can always turn it off.
+    color: {r: 0, g: 0, b: 0, a: 1}
+  - speaker: {fileID: 11400000, guid: e22e8112d1d2d9942bf8b3d3f6bd2adc, type: 2}
+    dialogue: It's not static it's a repeating pattern.
+    color: {r: 0, g: 0, b: 0, a: 1}
+  - speaker: {fileID: 11400000, guid: 6c83e1e92c72f44479616f865df8c384, type: 2}
+    dialogue: Yes and I'm a colony girl riding on a triciclops.
+    color: {r: 0, g: 0, b: 0, a: 1}
+  - speaker: {fileID: 11400000, guid: 37d4e5ace33c8084e9312d2603ab6010, type: 2}
+    dialogue: He's correct. It seems like a distress signal from a very old relay.
+    color: {r: 0, g: 0, b: 0, a: 1}
+  - speaker: {fileID: 11400000, guid: e22e8112d1d2d9942bf8b3d3f6bd2adc, type: 2}
+    dialogue: We have to investigate
+    color: {r: 0, g: 0, b: 0, a: 1}
+  - speaker: {fileID: 11400000, guid: 6c83e1e92c72f44479616f865df8c384, type: 2}
+    dialogue: ... How did you even...Nevermind. What are the coordinates?
+    color: {r: 0, g: 0, b: 0, a: 1}
+  - speaker: {fileID: 11400000, guid: 37d4e5ace33c8084e9312d2603ab6010, type: 2}
+    dialogue: Not far from here.
+    color: {r: 0, g: 0, b: 0, a: 1}
+  - speaker: {fileID: 11400000, guid: e22e8112d1d2d9942bf8b3d3f6bd2adc, type: 2}
+    dialogue: To your stations! We're going to help these people.
+    color: {r: 0, g: 0, b: 0, a: 1}
   scenename: mission 1

@@ -47,7 +47,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12432a2b5601ebe419ce22aa1ee73be3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  range: 15.59
+  range: 10
   bullet: {fileID: 879826545147376437, guid: f8e6ca28ed48a68499d39e2d753c5294, type: 3}
 --- !u!61 &2767907882174654638
 BoxCollider2D:
@@ -180,8 +180,8 @@ SpriteRenderer:
   m_SortingLayerID: 2134773561
   m_SortingLayer: 2
   m_SortingOrder: 1
-  m_Sprite: {fileID: 21300000, guid: 7095d47dc9e362f469e6f328e292bfad, type: 3}
-  m_Color: {r: 1, g: 0.3160377, b: 0.3160377, a: 1}
+  m_Sprite: {fileID: 21300000, guid: 0f51f01fb6c49a14ba8bf4e2f5454d7f, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0

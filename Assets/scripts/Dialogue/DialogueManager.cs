@@ -43,6 +43,7 @@ public class DialogueManager : MonoBehaviour
             {
                 speakertext.text = convo.GetLineByIndex(currentLine).speaker.GetName(); //set speker name
                 dText.text = convo.GetLineByIndex(currentLine).dialogue; //set dialogue
+                dText.color = convo.GetLineByIndex(currentLine).color;
                 speakerimage.sprite = convo.GetLineByIndex(currentLine).speaker.GetImage(); //set speaker image  
             }                  
         }

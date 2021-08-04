@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/release' branch; Version is '2020.3.12f1 (b3b2c6512326) revision 11776710'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Home; OS build 18363.1440; Version 1909; 64bit' Language: 'el' Physical Memory: 16316 MB
+OS: 'Windows 10 Home; OS build 19042.1110; Version 2009; 64bit' Language: 'el' Physical Memory: 16316 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -15,11 +15,11 @@ D:/Tools no.2/github/Space-Shooter
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62315
+57573
 Successfully changed project path to: D:/Tools no.2/github/Space-Shooter
 D:/Tools no.2/github/Space-Shooter
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 55.70 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 61.02 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.12f1 (b3b2c6512326)
 [Subsystems] Discovering subsystems at path D:/Tools no.2/Unity/Unity builds/2020.3.12f1/Editor/Data/Resources/UnitySubsystems
@@ -30,42 +30,42 @@ Direct3D:
     Renderer: NVIDIA GeForce GTX 960 (ID=0x1401)
     Vendor:   
     VRAM:     2007 MB
-    Driver:   26.21.14.4120
+    Driver:   27.21.14.5671
 Initialize mono
 Mono path[0] = 'D:/Tools no.2/Unity/Unity builds/2020.3.12f1/Editor/Data/Managed'
 Mono path[1] = 'D:/Tools no.2/Unity/Unity builds/2020.3.12f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'D:/Tools no.2/Unity/Unity builds/2020.3.12f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56128
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56792
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: D:/Tools no.2/Unity/Unity builds/2020.3.12f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001072 seconds.
+Registered in 0.001204 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 58.91 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 62.45 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.741 seconds
+- Completed reload, in  1.848 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.003376 seconds.
+Registered in 0.003626 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 56.76 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 60.01 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.144 seconds
+- Completed reload, in  1.160 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.63 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1801 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 175.1 MB.
 System memory in use after: 175.2 MB.
 
 Unloading 24 unused Assets to reduce memory usage. Loaded Objects now: 2266.
-Total: 2.608500 ms (FindLiveObjects: 0.199900 ms CreateObjectMapping: 0.046800 ms MarkObjects: 2.203700 ms  DeleteObjects: 0.156900 ms)
+Total: 2.575500 ms (FindLiveObjects: 0.214700 ms CreateObjectMapping: 0.050700 ms MarkObjects: 2.147900 ms  DeleteObjects: 0.160900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -79,121 +79,939 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/sprites/enemy turret.png
-  artifactKey: Guid(c8b9981967656fd45ba4079154af9cc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/sprites/enemy turret.png using Guid(c8b9981967656fd45ba4079154af9cc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed13b38b578971f98a10afbaeb529ec8') in 0.083495 seconds 
-  Import took 0.101545 seconds .
+  path: Assets/sprites/tiles/space prebaked 2 red no stars.png
+  artifactKey: Guid(3d1b87a8f1b9b6c4d80e46d5d2271ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space prebaked 2 red no stars.png using Guid(3d1b87a8f1b9b6c4d80e46d5d2271ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c0fee6c2e97f01c58d4c3a7d1ba6da4') in 0.067864 seconds 
+  Import took 0.071013 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/sprites/sspace rock 2.png
-  artifactKey: Guid(9cd1765dbb37c174a96545e17b1804c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/sprites/sspace rock 2.png using Guid(9cd1765dbb37c174a96545e17b1804c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01aed48ae7ff0bd275b09d6a6cbc74d5') in 0.016289 seconds 
-  Import took 0.020005 seconds .
+  Time since last request: 0.000245 seconds.
+  path: Assets/sprites/tiles/space prebaked 2 yellow.png
+  artifactKey: Guid(86661d91fba64ae4f8ce902d94d99a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space prebaked 2 yellow.png using Guid(86661d91fba64ae4f8ce902d94d99a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad41f3c60e237f5af86a63331af3d40d') in 0.013187 seconds 
+  Import took 0.016835 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 6.461708 seconds.
-  path: Assets/sprites/sspace rock 2.png
-  artifactKey: Guid(9cd1765dbb37c174a96545e17b1804c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/sprites/sspace rock 2.png using Guid(9cd1765dbb37c174a96545e17b1804c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baaffbab0a263d1398521d56b5ef67dc') in 0.046173 seconds 
-  Import took 0.049456 seconds .
+  Time since last request: 0.000200 seconds.
+  path: Assets/sprites/tiles/space prebaked 1 purple.png
+  artifactKey: Guid(5d78b66c3231fc44cbdea218574c0fbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space prebaked 1 purple.png using Guid(5d78b66c3231fc44cbdea218574c0fbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50cba3538e00a268df41a0b824d685c8') in 0.011335 seconds 
+  Import took 0.014210 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000179 seconds.
-  path: Assets/sprites/enemy turret.png
-  artifactKey: Guid(c8b9981967656fd45ba4079154af9cc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/sprites/enemy turret.png using Guid(c8b9981967656fd45ba4079154af9cc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4361a775b63ebe0fc07a09fcde202635') in 0.031947 seconds 
-  Import took 0.050422 seconds .
+  Time since last request: 0.000214 seconds.
+  path: Assets/sprites/tiles/space prebaked 1 red no stars.png
+  artifactKey: Guid(a3a44b6e9dfad634ba8eba1c3b4ff042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space prebaked 1 red no stars.png using Guid(a3a44b6e9dfad634ba8eba1c3b4ff042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7bfa91aa862d2895b74324dd896d58a') in 0.019846 seconds 
+  Import took 0.022678 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 14.135144 seconds.
-  path: Assets/prefabs
-  artifactKey: Guid(1be7fd67393c6b04692f1113d3b7cfa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs using Guid(1be7fd67393c6b04692f1113d3b7cfa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eebfb9487d5f128905a412afd52582d2') in 0.013842 seconds 
-  Import took 0.017426 seconds .
+  Time since last request: 0.000218 seconds.
+  path: Assets/sprites/tiles/space prebaked 2.png
+  artifactKey: Guid(ab6639fb59aad6344a6db13665469e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space prebaked 2.png using Guid(ab6639fb59aad6344a6db13665469e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a116351c9fc137c4dd1153a664971af') in 0.010611 seconds 
+  Import took 0.014233 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 10.816256 seconds.
-  path: Assets/prefabs/enemy turret.prefab
-  artifactKey: Guid(4f57d98fcc1348c4cb81fede9b86075d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/enemy turret.prefab using Guid(4f57d98fcc1348c4cb81fede9b86075d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3c19cdf2f1ceed74059b3857cae733f') in 0.009519 seconds 
-  Import took 0.012659 seconds .
+  Time since last request: 0.000291 seconds.
+  path: Assets/sprites/tiles/space prebaked 3.png
+  artifactKey: Guid(505e80e3f3615fb4485868ee06cfabe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space prebaked 3.png using Guid(505e80e3f3615fb4485868ee06cfabe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cda5aad3e0644142068d313077e3fc7') in 0.010639 seconds 
+  Import took 0.013975 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.024136 seconds.
-  path: Assets/prefabs/enemy turret.prefab
-  artifactKey: Guid(4f57d98fcc1348c4cb81fede9b86075d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/enemy turret.prefab using Guid(4f57d98fcc1348c4cb81fede9b86075d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3c19cdf2f1ceed74059b3857cae733f') in 0.003110 seconds 
-  Import took 0.006164 seconds .
+  Time since last request: 0.000192 seconds.
+  path: Assets/sprites/tiles/space prebaked 3 blue.png
+  artifactKey: Guid(ebd0ae297de99444a83e556570c65209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space prebaked 3 blue.png using Guid(ebd0ae297de99444a83e556570c65209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d5256e45d0b550c250bfdf9d888a95e') in 0.011799 seconds 
+  Import took 0.015670 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 17.124004 seconds.
-  path: Assets/prefabs/enemy turret.prefab
-  artifactKey: Guid(4f57d98fcc1348c4cb81fede9b86075d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/enemy turret.prefab using Guid(4f57d98fcc1348c4cb81fede9b86075d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bd486c85ad47fcbeb646a4947eea1b7') in 0.003345 seconds 
-  Import took 0.006542 seconds .
+  Time since last request: 0.000234 seconds.
+  path: Assets/sprites/tiles/space prebaked 1 yellow.png
+  artifactKey: Guid(f920a33929d8df643862cd55d9a2ac25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space prebaked 1 yellow.png using Guid(f920a33929d8df643862cd55d9a2ac25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e5f74edc61be77ae008318dc4aa85b7') in 0.010109 seconds 
+  Import took 0.013575 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.009549 seconds.
-  path: Assets/prefabs/enemy turret.prefab
-  artifactKey: Guid(4f57d98fcc1348c4cb81fede9b86075d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/enemy turret.prefab using Guid(4f57d98fcc1348c4cb81fede9b86075d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bd486c85ad47fcbeb646a4947eea1b7') in 0.003674 seconds 
-  Import took 0.006887 seconds .
+  Time since last request: 0.000236 seconds.
+  path: Assets/sprites/tiles/space prebaked 3 yellow.png
+  artifactKey: Guid(70998e0e56eea6c43aa1e9e7a6423a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space prebaked 3 yellow.png using Guid(70998e0e56eea6c43aa1e9e7a6423a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '913a4294fdb69fe2201598b56d2d9ff3') in 0.010944 seconds 
+  Import took 0.014088 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.129334 seconds.
-  path: Assets/prefabs/enemy turret.prefab
-  artifactKey: Guid(4f57d98fcc1348c4cb81fede9b86075d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/enemy turret.prefab using Guid(4f57d98fcc1348c4cb81fede9b86075d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb678546b46051980f9505c14d5d2368') in 0.003481 seconds 
-  Import took 0.006868 seconds .
+  Time since last request: 0.000240 seconds.
+  path: Assets/sprites/tiles/space prebaked 1.png
+  artifactKey: Guid(227e636974616b84ea83a97d7d9b7f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space prebaked 1.png using Guid(227e636974616b84ea83a97d7d9b7f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1eaecdc9fae3e399bb3a15ae206a4e28') in 0.015132 seconds 
+  Import took 0.018091 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.014363 seconds.
-  path: Assets/prefabs/enemy turret.prefab
-  artifactKey: Guid(4f57d98fcc1348c4cb81fede9b86075d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/enemy turret.prefab using Guid(4f57d98fcc1348c4cb81fede9b86075d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4b67a8f862ee281f8a0367f399de113') in 0.003582 seconds 
-  Import took 0.006908 seconds .
+  Time since last request: 0.000242 seconds.
+  path: Assets/sprites/tiles/space prebaked 3 purple.png
+  artifactKey: Guid(1eeb7e488c727ed4abbc274ed79d3f93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space prebaked 3 purple.png using Guid(1eeb7e488c727ed4abbc274ed79d3f93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2023607a8c570720462183b4eaff5ddc') in 0.010537 seconds 
+  Import took 0.013858 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 67.800399 seconds.
-  path: Assets/scripts/enemyscripts/enemyAI_shoot.cs
-  artifactKey: Guid(12432a2b5601ebe419ce22aa1ee73be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/scripts/enemyscripts/enemyAI_shoot.cs using Guid(12432a2b5601ebe419ce22aa1ee73be3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e1d949962acec1e7201bf2a5c6de289') in 0.011031 seconds 
-  Import took 0.014429 seconds .
+  Time since last request: 0.000230 seconds.
+  path: Assets/sprites/tiles/space prebaked 1 blue.png
+  artifactKey: Guid(1340153d5d0d5f849b30b40def572f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space prebaked 1 blue.png using Guid(1340153d5d0d5f849b30b40def572f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ded7622fc642b83d4f5af5c8d3a57622') in 0.009942 seconds 
+  Import took 0.013406 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 14.953532 seconds.
-  path: Assets/prefabs/enemy turret.prefab
-  artifactKey: Guid(4f57d98fcc1348c4cb81fede9b86075d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/enemy turret.prefab using Guid(4f57d98fcc1348c4cb81fede9b86075d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '908c3fce9eda40c67496570e03f8326a') in 0.030698 seconds 
-  Import took 0.033995 seconds .
+  Time since last request: 0.000203 seconds.
+  path: Assets/sprites/tiles/space prebaked 1 green.png
+  artifactKey: Guid(5b720973fd4555d488fa8ad5f45bf0ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space prebaked 1 green.png using Guid(5b720973fd4555d488fa8ad5f45bf0ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54356abba655c358678c89e0517a14b9') in 0.009552 seconds 
+  Import took 0.012393 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.206895 seconds.
-  path: Assets/prefabs/enemy turret.prefab
-  artifactKey: Guid(4f57d98fcc1348c4cb81fede9b86075d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/enemy turret.prefab using Guid(4f57d98fcc1348c4cb81fede9b86075d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '366413c310d9159d6c2ff9888384db41') in 0.009810 seconds 
-  Import took 0.013360 seconds .
+  Time since last request: 0.000230 seconds.
+  path: Assets/sprites/tiles/space prebaked 1 blue.png
+  artifactKey: Guid(1340153d5d0d5f849b30b40def572f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space prebaked 1 blue.png using Guid(1340153d5d0d5f849b30b40def572f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ded7622fc642b83d4f5af5c8d3a57622') in 0.009953 seconds 
+  Import took 0.013177 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 4.055696 seconds.
-  path: Assets/prefabs/enemy turret.prefab
-  artifactKey: Guid(4f57d98fcc1348c4cb81fede9b86075d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/prefabs/enemy turret.prefab using Guid(4f57d98fcc1348c4cb81fede9b86075d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cf10736fa4b2d3b301081c4f2d0e17b') in 0.012124 seconds 
-  Import took 0.024449 seconds .
+  Time since last request: 0.000173 seconds.
+  path: Assets/sprites/tiles/space prebaked 2 blue.png
+  artifactKey: Guid(b938e3ce045e21744819e3f25f2c893e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space prebaked 2 blue.png using Guid(b938e3ce045e21744819e3f25f2c893e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e736dab86d68ab971decc42cac5fea9e') in 0.009593 seconds 
+  Import took 0.012461 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/sprites/tiles/space prebaked 3 green.png
+  artifactKey: Guid(a17d496bd2df89a4386206e50a266186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space prebaked 3 green.png using Guid(a17d496bd2df89a4386206e50a266186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bb498c1a8e8fd99cc9cd5410f1ab48c') in 0.009492 seconds 
+  Import took 0.012574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/sprites/tiles/space prebaked 3 red no stars.png
+  artifactKey: Guid(2ae2f42761138734295a82b96dc8adb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space prebaked 3 red no stars.png using Guid(2ae2f42761138734295a82b96dc8adb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd09264c14a0056e74b802e76e0305ea2') in 0.009647 seconds 
+  Import took 0.013021 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000216 seconds.
+  path: Assets/sprites/tiles/space prebaked 2 purple.png
+  artifactKey: Guid(56d6e068fe5f4d0468c69cc6d913aaf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space prebaked 2 purple.png using Guid(56d6e068fe5f4d0468c69cc6d913aaf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5007545b601cb7aef3abfdc3e4224234') in 0.010042 seconds 
+  Import took 0.012998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000246 seconds.
+  path: Assets/sprites/tiles/space prebaked 2 green.png
+  artifactKey: Guid(e0afd5382b61e6444bf2e3cb7e4ed7bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space prebaked 2 green.png using Guid(e0afd5382b61e6444bf2e3cb7e4ed7bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08519226cc9b0550b0f2d70b3baa7949') in 0.010479 seconds 
+  Import took 0.013826 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.972793 seconds.
+  path: Assets/sprites/tiles/space prebaked 1 blue.png
+  artifactKey: Guid(1340153d5d0d5f849b30b40def572f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space prebaked 1 blue.png using Guid(1340153d5d0d5f849b30b40def572f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1554ca42f58040415c39c578e9dad16d') in 0.048324 seconds 
+  Import took 0.051633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/sprites/tiles/space prebaked 2 red no stars.png
+  artifactKey: Guid(3d1b87a8f1b9b6c4d80e46d5d2271ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space prebaked 2 red no stars.png using Guid(3d1b87a8f1b9b6c4d80e46d5d2271ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd90325d91d6dcaf0f10d441dc96618f2') in 0.015427 seconds 
+  Import took 0.018838 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/sprites/tiles/space prebaked 2 yellow.png
+  artifactKey: Guid(86661d91fba64ae4f8ce902d94d99a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space prebaked 2 yellow.png using Guid(86661d91fba64ae4f8ce902d94d99a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81d2bd2ec62f54dc0fa712dba89a132a') in 0.014018 seconds 
+  Import took 0.017043 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/sprites/tiles/space prebaked 1 purple.png
+  artifactKey: Guid(5d78b66c3231fc44cbdea218574c0fbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space prebaked 1 purple.png using Guid(5d78b66c3231fc44cbdea218574c0fbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '403ef9dab7019f2b53ecb57f03d9c69f') in 0.012766 seconds 
+  Import took 0.015803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/sprites/tiles/space prebaked 1 red no stars.png
+  artifactKey: Guid(a3a44b6e9dfad634ba8eba1c3b4ff042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space prebaked 1 red no stars.png using Guid(a3a44b6e9dfad634ba8eba1c3b4ff042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6d02e05f44cebdec0b0f8313d61f854') in 0.016068 seconds 
+  Import took 0.018918 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/sprites/tiles/space prebaked 2.png
+  artifactKey: Guid(ab6639fb59aad6344a6db13665469e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space prebaked 2.png using Guid(ab6639fb59aad6344a6db13665469e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b81339ebad40f6ab2ad6236b2605067') in 0.016773 seconds 
+  Import took 0.019662 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/sprites/tiles/space prebaked 3.png
+  artifactKey: Guid(505e80e3f3615fb4485868ee06cfabe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space prebaked 3.png using Guid(505e80e3f3615fb4485868ee06cfabe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '896150b7759b2f0401346a61ba4843f4') in 0.013928 seconds 
+  Import took 0.016942 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000153 seconds.
+  path: Assets/sprites/tiles/space prebaked 3 blue.png
+  artifactKey: Guid(ebd0ae297de99444a83e556570c65209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space prebaked 3 blue.png using Guid(ebd0ae297de99444a83e556570c65209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a76bc639115d52733a748b8915f387f') in 0.014194 seconds 
+  Import took 0.023645 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/sprites/tiles/space prebaked 1 yellow.png
+  artifactKey: Guid(f920a33929d8df643862cd55d9a2ac25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space prebaked 1 yellow.png using Guid(f920a33929d8df643862cd55d9a2ac25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec15e8f04b0758c9c7e3bcb56751e42c') in 0.012900 seconds 
+  Import took 0.016206 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/sprites/tiles/space prebaked 3 yellow.png
+  artifactKey: Guid(70998e0e56eea6c43aa1e9e7a6423a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space prebaked 3 yellow.png using Guid(70998e0e56eea6c43aa1e9e7a6423a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ee096ee5092d2ae0e64e800bea762c9') in 0.015699 seconds 
+  Import took 0.018777 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/sprites/tiles/space prebaked 1.png
+  artifactKey: Guid(227e636974616b84ea83a97d7d9b7f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space prebaked 1.png using Guid(227e636974616b84ea83a97d7d9b7f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce2208e1eef9d878d3ab2c49cfbf6d5a') in 0.014278 seconds 
+  Import took 0.017600 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/sprites/tiles/space prebaked 3 purple.png
+  artifactKey: Guid(1eeb7e488c727ed4abbc274ed79d3f93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space prebaked 3 purple.png using Guid(1eeb7e488c727ed4abbc274ed79d3f93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '068f7a36b62c95d45074f0627b4450a7') in 0.013813 seconds 
+  Import took 0.016594 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/sprites/tiles/space prebaked 1 green.png
+  artifactKey: Guid(5b720973fd4555d488fa8ad5f45bf0ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space prebaked 1 green.png using Guid(5b720973fd4555d488fa8ad5f45bf0ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9302166008b05312604b74cc12647c6e') in 0.013293 seconds 
+  Import took 0.016972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/sprites/tiles/space prebaked 2 blue.png
+  artifactKey: Guid(b938e3ce045e21744819e3f25f2c893e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space prebaked 2 blue.png using Guid(b938e3ce045e21744819e3f25f2c893e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4bcfa5b1b7d3c980e8e003d32c1b839') in 0.014791 seconds 
+  Import took 0.018537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/sprites/tiles/space prebaked 3 green.png
+  artifactKey: Guid(a17d496bd2df89a4386206e50a266186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space prebaked 3 green.png using Guid(a17d496bd2df89a4386206e50a266186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f228ba23f794f8fbcdf912da7150d8e') in 0.018361 seconds 
+  Import took 0.021319 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/sprites/tiles/space prebaked 2 blue.png
+  artifactKey: Guid(b938e3ce045e21744819e3f25f2c893e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space prebaked 2 blue.png using Guid(b938e3ce045e21744819e3f25f2c893e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4bcfa5b1b7d3c980e8e003d32c1b839') in 0.017412 seconds 
+  Import took 0.020618 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000227 seconds.
+  path: Assets/sprites/tiles/space prebaked 3 red no stars.png
+  artifactKey: Guid(2ae2f42761138734295a82b96dc8adb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space prebaked 3 red no stars.png using Guid(2ae2f42761138734295a82b96dc8adb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b606c254ebd00178d9383c3e89169179') in 0.014679 seconds 
+  Import took 0.017979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/sprites/tiles/space prebaked 2 purple.png
+  artifactKey: Guid(56d6e068fe5f4d0468c69cc6d913aaf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space prebaked 2 purple.png using Guid(56d6e068fe5f4d0468c69cc6d913aaf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5609779e405a779a25787a0c8ac2f08a') in 0.014858 seconds 
+  Import took 0.018136 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/sprites/tiles/space prebaked 2 green.png
+  artifactKey: Guid(e0afd5382b61e6444bf2e3cb7e4ed7bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space prebaked 2 green.png using Guid(e0afd5382b61e6444bf2e3cb7e4ed7bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7876babdf9085e5ed186d1d9c7f0369') in 0.014730 seconds 
+  Import took 0.018005 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 27.335485 seconds.
+  path: Assets/sprites/tiles/nebula.prefab
+  artifactKey: Guid(79de0e4e998b697409d9975c7fd2420a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/nebula.prefab using Guid(79de0e4e998b697409d9975c7fd2420a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99b3aed163daf8627495080af40f7a96') in 0.015624 seconds 
+  Import took 0.019061 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 16.567254 seconds.
+  path: Assets/sprites/tiles/nebula.prefab
+  artifactKey: Guid(79de0e4e998b697409d9975c7fd2420a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/nebula.prefab using Guid(79de0e4e998b697409d9975c7fd2420a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f94ca46960c4c38cea0850b168dbd5a0') in 0.004162 seconds 
+  Import took 0.007817 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.976736 seconds.
+  path: Assets/sprites/tiles/space prebaked 1 blue.png
+  artifactKey: Guid(1340153d5d0d5f849b30b40def572f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space prebaked 1 blue.png using Guid(1340153d5d0d5f849b30b40def572f2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e015b44f6f276c8d9417c263f2f5e530') in 0.014178 seconds 
+  Import took 0.017453 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/sprites/tiles/space prebaked 1 purple.png
+  artifactKey: Guid(5d78b66c3231fc44cbdea218574c0fbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space prebaked 1 purple.png using Guid(5d78b66c3231fc44cbdea218574c0fbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd9498894b0d0cb3ed42ea12444954f5') in 0.015477 seconds 
+  Import took 0.018661 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/sprites/tiles/space prebaked 1 red no stars.png
+  artifactKey: Guid(a3a44b6e9dfad634ba8eba1c3b4ff042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space prebaked 1 red no stars.png using Guid(a3a44b6e9dfad634ba8eba1c3b4ff042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5cd708df9bdc4db227e1c1d5bbe2a40') in 0.014430 seconds 
+  Import took 0.017733 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/sprites/tiles/space prebaked 1 yellow.png
+  artifactKey: Guid(f920a33929d8df643862cd55d9a2ac25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space prebaked 1 yellow.png using Guid(f920a33929d8df643862cd55d9a2ac25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4776d49fa51e80466368917aed6fd5f0') in 0.013681 seconds 
+  Import took 0.016776 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/sprites/tiles/space prebaked 1.png
+  artifactKey: Guid(227e636974616b84ea83a97d7d9b7f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space prebaked 1.png using Guid(227e636974616b84ea83a97d7d9b7f11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d22cd4677c1bb15076752caa6bb980a') in 0.014855 seconds 
+  Import took 0.018118 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/sprites/tiles/space prebaked 1 green.png
+  artifactKey: Guid(5b720973fd4555d488fa8ad5f45bf0ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space prebaked 1 green.png using Guid(5b720973fd4555d488fa8ad5f45bf0ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '211b2fff5e2705ff60738621a32bd005') in 0.014218 seconds 
+  Import took 0.017040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 117.751658 seconds.
+  path: Assets/sprites/tiles/nebula.prefab
+  artifactKey: Guid(79de0e4e998b697409d9975c7fd2420a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/nebula.prefab using Guid(79de0e4e998b697409d9975c7fd2420a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '291d5e50a46dd0f6d18ec4b89bb4e931') in 0.003987 seconds 
+  Import took 0.007398 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000171 seconds.
+  path: Assets/sprites/tiles/space prebaked 2 red no stars.png
+  artifactKey: Guid(3d1b87a8f1b9b6c4d80e46d5d2271ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space prebaked 2 red no stars.png using Guid(3d1b87a8f1b9b6c4d80e46d5d2271ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50c04a31b21cb147f25911cbb486e973') in 0.014793 seconds 
+  Import took 0.017680 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/sprites/tiles/space prebaked 2 yellow.png
+  artifactKey: Guid(86661d91fba64ae4f8ce902d94d99a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space prebaked 2 yellow.png using Guid(86661d91fba64ae4f8ce902d94d99a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4697fd74a710739be2d79f46cc08f6a6') in 0.012593 seconds 
+  Import took 0.015830 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/sprites/tiles/space prebaked 2.png
+  artifactKey: Guid(ab6639fb59aad6344a6db13665469e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space prebaked 2.png using Guid(ab6639fb59aad6344a6db13665469e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '251ad7ed4fd4cac9f340cf3b595685d5') in 0.014818 seconds 
+  Import took 0.018311 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000281 seconds.
+  path: Assets/sprites/tiles/space prebaked 2 blue.png
+  artifactKey: Guid(b938e3ce045e21744819e3f25f2c893e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space prebaked 2 blue.png using Guid(b938e3ce045e21744819e3f25f2c893e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a998364ad5a3b90290bdebb22557987') in 0.018000 seconds 
+  Import took 0.021533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/sprites/tiles/space prebaked 2 purple.png
+  artifactKey: Guid(56d6e068fe5f4d0468c69cc6d913aaf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space prebaked 2 purple.png using Guid(56d6e068fe5f4d0468c69cc6d913aaf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bfc75ba966f5b223a77fe8b40f96436') in 0.015654 seconds 
+  Import took 0.019304 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/sprites/tiles/space prebaked 2 blue.png
+  artifactKey: Guid(b938e3ce045e21744819e3f25f2c893e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space prebaked 2 blue.png using Guid(b938e3ce045e21744819e3f25f2c893e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a998364ad5a3b90290bdebb22557987') in 0.013513 seconds 
+  Import took 0.016658 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/sprites/tiles/space prebaked 2 green.png
+  artifactKey: Guid(e0afd5382b61e6444bf2e3cb7e4ed7bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space prebaked 2 green.png using Guid(e0afd5382b61e6444bf2e3cb7e4ed7bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dde52ed7ab7fe046a8ca8a525863f157') in 0.014798 seconds 
+  Import took 0.017674 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 119.425093 seconds.
+  path: Assets/sprites/tiles/nebula.prefab
+  artifactKey: Guid(79de0e4e998b697409d9975c7fd2420a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/nebula.prefab using Guid(79de0e4e998b697409d9975c7fd2420a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca2c9a9062ca4a813bec90b2fa599a4c') in 0.003972 seconds 
+  Import took 0.007373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.256081 seconds.
+  path: Assets/sprites/tiles/space prebaked 3 blue.png
+  artifactKey: Guid(ebd0ae297de99444a83e556570c65209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space prebaked 3 blue.png using Guid(ebd0ae297de99444a83e556570c65209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92bb8156598c813247389be3c1b18e16') in 0.017184 seconds 
+  Import took 0.032000 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000202 seconds.
+  path: Assets/sprites/tiles/space prebaked 3.png
+  artifactKey: Guid(505e80e3f3615fb4485868ee06cfabe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space prebaked 3.png using Guid(505e80e3f3615fb4485868ee06cfabe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f83759105a84338f540b0369292cfe3') in 0.012958 seconds 
+  Import took 0.015766 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/sprites/tiles/space prebaked 3 yellow.png
+  artifactKey: Guid(70998e0e56eea6c43aa1e9e7a6423a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space prebaked 3 yellow.png using Guid(70998e0e56eea6c43aa1e9e7a6423a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ccb25cc55e774e90d11ae0ad5e77e30') in 0.017429 seconds 
+  Import took 0.020521 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000212 seconds.
+  path: Assets/sprites/tiles/space prebaked 3 purple.png
+  artifactKey: Guid(1eeb7e488c727ed4abbc274ed79d3f93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space prebaked 3 purple.png using Guid(1eeb7e488c727ed4abbc274ed79d3f93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da358bf76e8e87505b92131c5f6d4e73') in 0.016684 seconds 
+  Import took 0.019755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/sprites/tiles/space prebaked 3 green.png
+  artifactKey: Guid(a17d496bd2df89a4386206e50a266186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space prebaked 3 green.png using Guid(a17d496bd2df89a4386206e50a266186) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98a7d9339b3cb2733e06f652bf39775a') in 0.015896 seconds 
+  Import took 0.018770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000228 seconds.
+  path: Assets/sprites/tiles/space prebaked 3 red no stars.png
+  artifactKey: Guid(2ae2f42761138734295a82b96dc8adb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space prebaked 3 red no stars.png using Guid(2ae2f42761138734295a82b96dc8adb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11eb8bcfce990bbaca5b38ccd34e4887') in 0.013817 seconds 
+  Import took 0.017049 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 226.915881 seconds.
+  path: Assets/prefabs/levelend.prefab
+  artifactKey: Guid(59fc0ca6a9160014ba68bd2b18f190b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/levelend.prefab using Guid(59fc0ca6a9160014ba68bd2b18f190b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9ac0691e338fc0f60808d668f6385dc') in 0.013292 seconds 
+  Import took 0.017334 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001234 seconds.
+  path: Assets/prefabs/levelend.prefab
+  artifactKey: Guid(59fc0ca6a9160014ba68bd2b18f190b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/levelend.prefab using Guid(59fc0ca6a9160014ba68bd2b18f190b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9ac0691e338fc0f60808d668f6385dc') in 0.004252 seconds 
+  Import took 0.007502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.000709 seconds.
+  path: Assets/Scenes/mission base.unity
+  artifactKey: Guid(0e32e2957e227f84094966ad657c66ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/mission base.unity using Guid(0e32e2957e227f84094966ad657c66ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5200c667c5b63b7342cb018629efccfd') in 0.022109 seconds 
+  Import took 0.025265 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 54.932546 seconds.
+  path: Assets/Scenes/survive.unity
+  artifactKey: Guid(9bcbabaeee71afd4eb65ad49eb9dd20f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/survive.unity using Guid(9bcbabaeee71afd4eb65ad49eb9dd20f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cb88f7721c182e72acd6810c51450e1') in 0.006952 seconds 
+  Import took 0.010427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000372 seconds.
+  path: Assets/Scenes/survive.unity
+  artifactKey: Guid(9bcbabaeee71afd4eb65ad49eb9dd20f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/survive.unity using Guid(9bcbabaeee71afd4eb65ad49eb9dd20f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cb88f7721c182e72acd6810c51450e1') in 0.002151 seconds 
+  Import took 0.005052 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.071643 seconds.
+  path: Assets/animations/controllers/transition.controller
+  artifactKey: Guid(4f3229a589735324f9bf5338cf5b2660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations/controllers/transition.controller using Guid(4f3229a589735324f9bf5338cf5b2660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49987490616a1832dd8ea79e39b6678a') in 0.009728 seconds 
+  Import took 0.012908 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 188.328109 seconds.
+  path: Assets/Scenes/mission base.unity
+  artifactKey: Guid(0e32e2957e227f84094966ad657c66ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/mission base.unity using Guid(0e32e2957e227f84094966ad657c66ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7c5487c994119a0c751dff52d8c66f6') in 0.002168 seconds 
+  Import took 0.005493 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/Scenes/mission base.unity
+  artifactKey: Guid(0e32e2957e227f84094966ad657c66ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/mission base.unity using Guid(0e32e2957e227f84094966ad657c66ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7c5487c994119a0c751dff52d8c66f6') in 0.002087 seconds 
+  Import took 0.004915 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 45.942142 seconds.
+  path: Assets/Scenes/mission base.unity
+  artifactKey: Guid(0e32e2957e227f84094966ad657c66ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/mission base.unity using Guid(0e32e2957e227f84094966ad657c66ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fb069533f2b19bb8524ef770bdcce97') in 0.002273 seconds 
+  Import took 0.005494 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003662 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.038 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1781 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 177.0 MB.
+System memory in use after: 177.0 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2277.
+Total: 2.463900 ms (FindLiveObjects: 0.212500 ms CreateObjectMapping: 0.042600 ms MarkObjects: 2.034200 ms  DeleteObjects: 0.173400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 114.486170 seconds.
+  path: Assets/prefabs/Enemy ship.prefab
+  artifactKey: Guid(33109abdabb9abd4aa3f4952f77d7854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/prefabs/Enemy ship.prefab using Guid(33109abdabb9abd4aa3f4952f77d7854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd64c10478a9f83b89a785c273d2d0446') in 0.064257 seconds 
+  Import took 0.067711 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 156.925054 seconds.
+  path: Assets/sprites/tiles/space prebaked 2 blue.png
+  artifactKey: Guid(b938e3ce045e21744819e3f25f2c893e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space prebaked 2 blue.png using Guid(b938e3ce045e21744819e3f25f2c893e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f78339f7a3726a4d43a935ee688d730') in 0.028238 seconds 
+  Import took 0.031768 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/sprites/tiles/space prebaked 2 red no stars.png
+  artifactKey: Guid(3d1b87a8f1b9b6c4d80e46d5d2271ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space prebaked 2 red no stars.png using Guid(3d1b87a8f1b9b6c4d80e46d5d2271ba1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d7ed220c5058dabdcb1748b51d4457e') in 0.013771 seconds 
+  Import took 0.017036 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/sprites/tiles/space prebaked 2 yellow.png
+  artifactKey: Guid(86661d91fba64ae4f8ce902d94d99a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space prebaked 2 yellow.png using Guid(86661d91fba64ae4f8ce902d94d99a19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5001ed1e5c30776a2caa8ff2ada873ee') in 0.016398 seconds 
+  Import took 0.019537 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/sprites/tiles/space prebaked 2.png
+  artifactKey: Guid(ab6639fb59aad6344a6db13665469e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space prebaked 2.png using Guid(ab6639fb59aad6344a6db13665469e83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '407ef40e7f134e2ec680cd77a257542c') in 0.015048 seconds 
+  Import took 0.018075 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/sprites/tiles/space prebaked 2 purple.png
+  artifactKey: Guid(56d6e068fe5f4d0468c69cc6d913aaf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space prebaked 2 purple.png using Guid(56d6e068fe5f4d0468c69cc6d913aaf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '851173caaa67423ecacf48e0310c8b1d') in 0.014824 seconds 
+  Import took 0.017719 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000208 seconds.
+  path: Assets/sprites/tiles/space prebaked 2 green.png
+  artifactKey: Guid(e0afd5382b61e6444bf2e3cb7e4ed7bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/space prebaked 2 green.png using Guid(e0afd5382b61e6444bf2e3cb7e4ed7bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f9a23416a25df077f35cb409afa82b6') in 0.013321 seconds 
+  Import took 0.016630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 498.813998 seconds.
+  path: Assets/sprites/tiles/spacetiles.prefab
+  artifactKey: Guid(f558adc4684e099418ab24b103831f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/spacetiles.prefab using Guid(f558adc4684e099418ab24b103831f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c86de7b7c441e39690aa0948bdc83bef') in 0.008757 seconds 
+  Import took 0.012276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 338.271995 seconds.
+  path: Assets/sprites/tiles/spacetiles.prefab
+  artifactKey: Guid(f558adc4684e099418ab24b103831f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sprites/tiles/spacetiles.prefab using Guid(f558adc4684e099418ab24b103831f9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95f2a24e3b56b273acdab9c202b1d553') in 0.003791 seconds 
+  Import took 0.007615 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003604 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.75 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.067 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1781 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 177.0 MB.
+System memory in use after: 177.1 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2283.
+Total: 2.844000 ms (FindLiveObjects: 0.243000 ms CreateObjectMapping: 0.043800 ms MarkObjects: 2.424500 ms  DeleteObjects: 0.130900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1158.602909 seconds.
+  path: Assets/Scenes/basic scene.scenetemplate
+  artifactKey: Guid(d75dc4a6ac205a64cbd4a17b43cd962f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/basic scene.scenetemplate using Guid(d75dc4a6ac205a64cbd4a17b43cd962f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdcfc5097b15271db646ed3b37fde93a') in 0.331095 seconds 
+  Import took 0.336062 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003999 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.67 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.069 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1781 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 177.1 MB.
+System memory in use after: 177.2 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2286.
+Total: 3.188800 ms (FindLiveObjects: 0.183700 ms CreateObjectMapping: 0.043400 ms MarkObjects: 2.794600 ms  DeleteObjects: 0.166000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003623 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.027 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1781 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 177.1 MB.
+System memory in use after: 177.2 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2288.
+Total: 2.465100 ms (FindLiveObjects: 0.205800 ms CreateObjectMapping: 0.043600 ms MarkObjects: 2.090600 ms  DeleteObjects: 0.123900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 185.796578 seconds.
+  path: Assets/Scenes/mission 1.unity
+  artifactKey: Guid(1966eb24952b0974fb82ee0e251ffbe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/mission 1.unity using Guid(1966eb24952b0974fb82ee0e251ffbe2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6b31f0b2287b5f6edec72b450bd8763') in 0.023577 seconds 
+  Import took 0.026941 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004138 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.64 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.005 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.68 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1781 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 177.1 MB.
+System memory in use after: 177.2 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2290.
+Total: 2.478100 ms (FindLiveObjects: 0.205400 ms CreateObjectMapping: 0.040700 ms MarkObjects: 2.104100 ms  DeleteObjects: 0.126700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 692.372565 seconds.
+  path: Assets/scripts/enemyscripts
+  artifactKey: Guid(cc932589b8ef476469c961ca70d49b83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/enemyscripts using Guid(cc932589b8ef476469c961ca70d49b83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a907b25f87094ca0694e25e221165dab') in 0.009730 seconds 
+  Import took 0.013018 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 40.996919 seconds.
+  path: Assets/scripts/playerscripts/turretrotation.cs
+  artifactKey: Guid(bcc7cb1e05014224ea709b5df4e2a879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/playerscripts/turretrotation.cs using Guid(bcc7cb1e05014224ea709b5df4e2a879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01db6ce6a9aa39b28a5088c49413bf11') in 0.008893 seconds 
+  Import took 0.012073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.522525 seconds.
+  path: Assets/scripts/playerscripts/shotspeed.cs
+  artifactKey: Guid(ab5c7cbefd96ec144abbc87c3a406516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/playerscripts/shotspeed.cs using Guid(ab5c7cbefd96ec144abbc87c3a406516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c42c6a48df087546089736b32ad554d8') in 0.006501 seconds 
+  Import took 0.009842 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001232 seconds.
+  path: Assets/scripts/playerscripts/shotspeed.cs
+  artifactKey: Guid(ab5c7cbefd96ec144abbc87c3a406516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/scripts/playerscripts/shotspeed.cs using Guid(ab5c7cbefd96ec144abbc87c3a406516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c42c6a48df087546089736b32ad554d8') in 0.009807 seconds 
+  Import took 0.013611 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003571 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.063 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1781 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 177.1 MB.
+System memory in use after: 177.2 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2292.
+Total: 2.419000 ms (FindLiveObjects: 0.179700 ms CreateObjectMapping: 0.041900 ms MarkObjects: 2.071500 ms  DeleteObjects: 0.124500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003616 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.120 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.88 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1781 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 177.1 MB.
+System memory in use after: 177.2 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 2294.
+Total: 2.840100 ms (FindLiveObjects: 0.228900 ms CreateObjectMapping: 0.055000 ms MarkObjects: 2.420800 ms  DeleteObjects: 0.134200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1456.354465 seconds.
+  path: Assets/Scenes/cutscene-demo.unity
+  artifactKey: Guid(d40c9ff0a8837624fbd48833ffe141d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/cutscene-demo.unity using Guid(d40c9ff0a8837624fbd48833ffe141d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edf2a9ab81ae831dfddd5de0a200fc0b') in 0.026112 seconds 
+  Import took 0.029574 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 36.571438 seconds.
+  path: Assets/animations/timeline/demo.playable
+  artifactKey: Guid(529f155c6aa84314384860255c840ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations/timeline/demo.playable using Guid(529f155c6aa84314384860255c840ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0180ed743586a0cf638417e0f8b2637c') in 0.026245 seconds 
+  Import took 0.031069 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004021 seconds.
+  path: Assets/animations/timeline/demo.playable
+  artifactKey: Guid(529f155c6aa84314384860255c840ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations/timeline/demo.playable using Guid(529f155c6aa84314384860255c840ce7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0180ed743586a0cf638417e0f8b2637c') in 0.003319 seconds 
+  Import took 0.006859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3138.901927 seconds.
+  path: Assets/animations/timeline/cutscene 2.playable
+  artifactKey: Guid(0aa61993270a6b94c8fc5c7ece611c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations/timeline/cutscene 2.playable using Guid(0aa61993270a6b94c8fc5c7ece611c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a22726dd03d119870fa221d056a50147') in 0.007680 seconds 
+  Import took 0.013572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1879.441358 seconds.
+  path: Assets/animations/animations/ship boom.anim
+  artifactKey: Guid(c19be90ccdf42fb49bd044baba510d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations/animations/ship boom.anim using Guid(c19be90ccdf42fb49bd044baba510d50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bec81f15d24f47f7a6596973d50c2b6') in 0.009376 seconds 
+  Import took 0.012815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 79.021757 seconds.
+  path: Assets/animations/timeline/cutscene 2.playable
+  artifactKey: Guid(0aa61993270a6b94c8fc5c7ece611c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/animations/timeline/cutscene 2.playable using Guid(0aa61993270a6b94c8fc5c7ece611c29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f327501c27999630f2eaf73ef8156bc0') in 0.009164 seconds 
+  Import took 0.012528 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file

@@ -5,16 +5,16 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637618484781963188
-    m_Hash: 2327813584
+      ticks: 637625775244613539
+    m_Hash: 1082365129
   m_LockFileStatus:
     m_FilePath: D:/Tools no.2/github/Space-Shooter/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 637618484782253193
-    m_Hash: 336206771
+      ticks: 637625775244623543
+    m_Hash: 1027388040
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_PackageAssets:
